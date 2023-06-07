@@ -1,0 +1,1212 @@
+version: "3.1"
+
+rules:
+
+- rule: return_HD_Series_Battery_Voltage
+  steps:
+  - intent: HD_Series_Battery_Voltage
+  - action: utter_HD_Series_Battery_Voltage
+- rule: return_HD_Series_Battery_Capacity
+  steps:
+  - intent: HD_Series_Battery_Capacity
+  - action: utter_HD_Series_Battery_Capacity
+- rule: return_HD_Series_Battery_Recharge_Time
+  steps:
+  - intent: HD_Series_Battery_Recharge_Time
+  - action: utter_HD_Series_Battery_Recharge_Time
+- rule: return_HD_Series_Battery_Charge_Cycles
+  steps:
+  - intent: HD_Series_Battery_Charge_Cycles
+  - action: utter_HD_Series_Battery_Charge_Cycles
+- rule: return_HD_Series_Battery_Charging_Method
+  steps:
+  - intent: HD_Series_Battery_Charging_Method
+  - action: utter_HD_Series_Battery_Charging_Method
+- rule: return_HD_Series_Battery_Ambient_Operating_Temperature
+  steps:
+  - intent: HD_Series_Battery_Ambient_Operating_Temperature
+  - action: utter_HD_Series_Battery_Ambient_Operating_Temperature
+- rule: return_HD_Series_Battery_Storage_Temperature
+  steps:
+  - intent: HD_Series_Battery_Storage_Temperature
+  - action: utter_HD_Series_Battery_Storage_Temperature
+- rule: return_HD_Series_Battery_Humidity
+  steps:
+  - intent: HD_Series_Battery_Humidity
+  - action: utter_HD_Series_Battery_Humidity
+- rule: return_HD_Series_Battery_Altitude
+  steps:
+  - intent: HD_Series_Battery_Altitude
+  - action: utter_HD_Series_Battery_Altitude
+- rule: return_HD_Series_Battery_Ingress_Protection_Class
+  steps:
+  - intent: HD_Series_Battery_Ingress_Protection_Class
+  - action: utter_HD_Series_Battery_Ingress_Protection_Class
+- rule: return_HD_Series_Battery_Weight
+  steps:
+  - intent: HD_Series_Battery_Weight
+  - action: utter_HD_Series_Battery_Weight
+- rule: return_Pendant_Ambient_Operating_Temperature
+  steps:
+  - intent: Pendant_Ambient_Operating_Temperature
+  - action: utter_Pendant_Ambient_Operating_Temperature
+- rule: return_Pendant_Storage_Temperature
+  steps:
+  - intent: Pendant_Storage_Temperature
+  - action: utter_Pendant_Storage_Temperature
+- rule: return_Pendant_Humidity
+  steps:
+  - intent: Pendant_Humidity
+  - action: utter_Pendant_Humidity
+- rule: return_Pendant_Altitude
+  steps:
+  - intent: Pendant_Altitude
+  - action: utter_Pendant_Altitude
+- rule: return_Pendant_Ingress_Protection_Class
+  steps:
+  - intent: Pendant_Ingress_Protection_Class
+  - action: utter_Pendant_Ingress_Protection_Class
+- rule: return_HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Single_AMR
+  steps:
+  - intent: HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Single_AMR
+  - action: utter_HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Single_AMR
+- rule: return_HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Fleet
+  steps:
+  - intent: HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Fleet
+  - action: utter_HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Fleet
+- rule: return_HD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+  steps:
+  - intent: HD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+  - action: utter_HD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+- rule: return_High_Accuracy_Positioning_System_Ingress_Protection
+  steps:
+  - intent: High_Accuracy_Positioning_System_Ingress_Protection
+  - action: utter_High_Accuracy_Positioning_System_Ingress_Protection
+- rule: return_High_Accuracy_Positioning_System_Environment
+  steps:
+  - intent: High_Accuracy_Positioning_System_Environment
+  - action: utter_High_Accuracy_Positioning_System_Environment
+- rule: return_High_Accuracy_Positioning_System_Magnetic_Tape_Width
+  steps:
+  - intent: High_Accuracy_Positioning_System_Magnetic_Tape_Width
+  - action: utter_High_Accuracy_Positioning_System_Magnetic_Tape_Width
+- rule: return_High_Accuracy_Positioning_System_Magnetic_Tape_Orientation
+  steps:
+  - intent: High_Accuracy_Positioning_System_Magnetic_Tape_Orientation
+  - action: utter_High_Accuracy_Positioning_System_Magnetic_Tape_Orientation
+- rule: return_High_Accuracy_Positioning_System_Markers__Width
+  steps:
+  - intent: High_Accuracy_Positioning_System_Markers__Width
+  - action: utter_High_Accuracy_Positioning_System_Markers__Width
+- rule: return_High_Accuracy_Positioning_System_Markers__Length
+  steps:
+  - intent: High_Accuracy_Positioning_System_Markers__Length
+  - action: utter_High_Accuracy_Positioning_System_Markers__Length
+- rule: return_High_Accuracy_Positioning_System_Markers__Orientation
+  steps:
+  - intent: High_Accuracy_Positioning_System_Markers__Orientation
+  - action: utter_High_Accuracy_Positioning_System_Markers__Orientation
+- rule: return_High_Accuracy_Positioning_System_Markers__Separation_from_tape
+  steps:
+  - intent: High_Accuracy_Positioning_System_Markers__Separation_from_tape
+  - action: utter_High_Accuracy_Positioning_System_Markers__Separation_from_tape
+- rule: return_High_Accuracy_Positioning_System_Protective_covering_tape_
+  steps:
+  - intent: High_Accuracy_Positioning_System_Protective_covering_tape_
+  - action: utter_High_Accuracy_Positioning_System_Protective_covering_tape_
+- rule: return_High_Accuracy_Positioning_System_Stop_Position_Repeatability_Single_AMR
+  steps:
+  - intent: High_Accuracy_Positioning_System_Stop_Position_Repeatability_Single_AMR
+  - action: utter_High_Accuracy_Positioning_System_Stop_Position_Repeatability_Single_AMR
+- rule: return_High_Accuracy_Positioning_System_Stop_Position_Repeatability_Fleet
+  steps:
+  - intent: High_Accuracy_Positioning_System_Stop_Position_Repeatability_Fleet
+  - action: utter_High_Accuracy_Positioning_System_Stop_Position_Repeatability_Fleet
+- rule: return_Charging_Station_Maximum_Current
+  steps:
+  - intent: Charging_Station_Maximum_Current
+  - action: utter_Charging_Station_Maximum_Current
+- rule: return_Charging_Station_Input_Voltage
+  steps:
+  - intent: Charging_Station_Input_Voltage
+  - action: utter_Charging_Station_Input_Voltage
+- rule: return_Charging_Station_Output_voltage
+  steps:
+  - intent: Charging_Station_Output_voltage
+  - action: utter_Charging_Station_Output_voltage
+- rule: return_Charging_Station_Power_Consumption
+  steps:
+  - intent: Charging_Station_Power_Consumption
+  - action: utter_Charging_Station_Power_Consumption
+- rule: return_Charging_Station_Maximum_Power_Output
+  steps:
+  - intent: Charging_Station_Maximum_Power_Output
+  - action: utter_Charging_Station_Maximum_Power_Output
+- rule: return_Charging_Station_Humidity
+  steps:
+  - intent: Charging_Station_Humidity
+  - action: utter_Charging_Station_Humidity
+- rule: return_Charging_Station_Ambient_Operating_Temperature
+  steps:
+  - intent: Charging_Station_Ambient_Operating_Temperature
+  - action: utter_Charging_Station_Ambient_Operating_Temperature
+- rule: return_Charging_Station_Storage_Temperature
+  steps:
+  - intent: Charging_Station_Storage_Temperature
+  - action: utter_Charging_Station_Storage_Temperature
+- rule: return_Charging_Station_Ingress_Protection_Class
+  steps:
+  - intent: Charging_Station_Ingress_Protection_Class
+  - action: utter_Charging_Station_Ingress_Protection_Class
+- rule: return_Charging_Station_Weight
+  steps:
+  - intent: Charging_Station_Weight
+  - action: utter_Charging_Station_Weight
+- rule: return_Charging_Station_Docking_Target_Mounting
+  steps:
+  - intent: Charging_Station_Docking_Target_Mounting
+  - action: utter_Charging_Station_Docking_Target_Mounting
+- rule: return_HD_Series_EM2100_Appliance_Weight
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Weight
+  - action: utter_HD_Series_EM2100_Appliance_Weight
+- rule: return_HD_Series_EM2100_Appliance_Mounting_method
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Mounting_method
+  - action: utter_HD_Series_EM2100_Appliance_Mounting_method
+- rule: return_HD_Series_EM2100_Appliance_Power_Supply
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Power_Supply
+  - action: utter_HD_Series_EM2100_Appliance_Power_Supply
+- rule: return_HD_Series_EM2100_Appliance_Power_Consumption
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Power_Consumption
+  - action: utter_HD_Series_EM2100_Appliance_Power_Consumption
+- rule: return_HD_Series_EM2100_Appliance_Operating_Temperature
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Operating_Temperature
+  - action: utter_HD_Series_EM2100_Appliance_Operating_Temperature
+- rule: return_HD_Series_EM2100_Appliance_Storage_Temperature
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Storage_Temperature
+  - action: utter_HD_Series_EM2100_Appliance_Storage_Temperature
+- rule: return_HD_Series_EM2100_Appliance_Operating_Humidity
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Operating_Humidity
+  - action: utter_HD_Series_EM2100_Appliance_Operating_Humidity
+- rule: return_HD_Series_EM2100_Appliance_Storage_Humidity
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Storage_Humidity
+  - action: utter_HD_Series_EM2100_Appliance_Storage_Humidity
+- rule: return_HD_Series_EM2100_Appliance_Ingress_Protection_Class
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Ingress_Protection_Class
+  - action: utter_HD_Series_EM2100_Appliance_Ingress_Protection_Class
+- rule: return_HD_Series_EM2100_Appliance_Main_Memory
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Main_Memory
+  - action: utter_HD_Series_EM2100_Appliance_Main_Memory
+- rule: return_HD_Series_EM2100_Appliance_Storage
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Storage
+  - action: utter_HD_Series_EM2100_Appliance_Storage
+- rule: return_HD_Series_EM2100_Appliance_Archive_Storage
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Archive_Storage
+  - action: utter_HD_Series_EM2100_Appliance_Archive_Storage
+- rule: return_HD_Series_EM2100_Appliance_Communication_port
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Communication_port
+  - action: utter_HD_Series_EM2100_Appliance_Communication_port
+- rule: return_HD_Series_EM2100_Appliance_Status_Display
+  steps:
+  - intent: HD_Series_EM2100_Appliance_Status_Display
+  - action: utter_HD_Series_EM2100_Appliance_Status_Display
+- rule: return_MobilePlanner_Software_Requirements_MobilePlanner_PC_Operating_System
+  steps:
+  - intent: MobilePlanner_Software_Requirements_MobilePlanner_PC_Operating_System
+  - action: utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Operating_System
+- rule: return_MobilePlanner_Software_Requirements_MobilePlanner_PC_CPU
+  steps:
+  - intent: MobilePlanner_Software_Requirements_MobilePlanner_PC_CPU
+  - action: utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_CPU
+- rule: return_MobilePlanner_Software_Requirements_MobilePlanner_PC_Main_Memory
+  steps:
+  - intent: MobilePlanner_Software_Requirements_MobilePlanner_PC_Main_Memory
+  - action: utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Main_Memory
+- rule: return_MobilePlanner_Software_Requirements_MobilePlanner_PC_Hard_Disk
+  steps:
+  - intent: MobilePlanner_Software_Requirements_MobilePlanner_PC_Hard_Disk
+  - action: utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Hard_Disk
+- rule: return_MobilePlanner_Software_Requirements_MobilePlanner_PC_Video_Memory
+  steps:
+  - intent: MobilePlanner_Software_Requirements_MobilePlanner_PC_Video_Memory
+  - action: utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Video_Memory
+- rule: return_MobilePlanner_Software_Requirements_MobilePlanner_PC_Display
+  steps:
+  - intent: MobilePlanner_Software_Requirements_MobilePlanner_PC_Display
+  - action: utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Display
+- rule: return_MobilePlanner_Software_Requirements_MobilePlanner_Tablet_Edition_Operating_System
+  steps:
+  - intent: MobilePlanner_Software_Requirements_MobilePlanner_Tablet_Edition_Operating_System
+  - action: utter_MobilePlanner_Software_Requirements_MobilePlanner_Tablet_Edition_Operating_System
+- rule: return_MobilePlanner_Software_Requirements_Supported_Languages
+  steps:
+  - intent: MobilePlanner_Software_Requirements_Supported_Languages
+  - action: utter_MobilePlanner_Software_Requirements_Supported_Languages
+- rule: return_HD1500_Weight_
+  steps:
+  - intent: HD1500_Weight_
+  - action: utter_HD1500_Weight_
+- rule: return_HD1500_Environment_Ambient_temperature
+  steps:
+  - intent: HD1500_Environment_Ambient_temperature
+  - action: utter_HD1500_Environment_Ambient_temperature
+- rule: return_HD1500_Environment_Storage_temperature
+  steps:
+  - intent: HD1500_Environment_Storage_temperature
+  - action: utter_HD1500_Environment_Storage_temperature
+- rule: return_HD1500_Environment_Ambient_humidity
+  steps:
+  - intent: HD1500_Environment_Ambient_humidity
+  - action: utter_HD1500_Environment_Ambient_humidity
+- rule: return_HD1500_Environment_Operating_environment
+  steps:
+  - intent: HD1500_Environment_Operating_environment
+  - action: utter_HD1500_Environment_Operating_environment
+- rule: return_HD1500_Environment_Altitude
+  steps:
+  - intent: HD1500_Environment_Altitude
+  - action: utter_HD1500_Environment_Altitude
+- rule: return_HD1500_Environment_Ingress_Protection_Class
+  steps:
+  - intent: HD1500_Environment_Ingress_Protection_Class
+  - action: utter_HD1500_Environment_Ingress_Protection_Class
+- rule: return_HD1500_Environment_Cleanroom_rating
+  steps:
+  - intent: HD1500_Environment_Cleanroom_rating
+  - action: utter_HD1500_Environment_Cleanroom_rating
+- rule: return_HD1500_Floor_Conditions_Floor_requirements
+  steps:
+  - intent: HD1500_Floor_Conditions_Floor_requirements
+  - action: utter_HD1500_Floor_Conditions_Floor_requirements
+- rule: return_HD1500_Floor_Conditions_Minimum_floor_flatness
+  steps:
+  - intent: HD1500_Floor_Conditions_Minimum_floor_flatness
+  - action: utter_HD1500_Floor_Conditions_Minimum_floor_flatness
+- rule: return_HD1500_Floor_Conditions_Traversable_step
+  steps:
+  - intent: HD1500_Floor_Conditions_Traversable_step
+  - action: utter_HD1500_Floor_Conditions_Traversable_step
+- rule: return_HD1500_Floor_Conditions_Traversable_gap
+  steps:
+  - intent: HD1500_Floor_Conditions_Traversable_gap
+  - action: utter_HD1500_Floor_Conditions_Traversable_gap
+- rule: return_HD1500_Floor_Conditions_Maximum_Slope
+  steps:
+  - intent: HD1500_Floor_Conditions_Maximum_Slope
+  - action: utter_HD1500_Floor_Conditions_Maximum_Slope
+- rule: return_HD1500_Floor_Conditions_Minimum_floor_compressive_strength
+  steps:
+  - intent: HD1500_Floor_Conditions_Minimum_floor_compressive_strength
+  - action: utter_HD1500_Floor_Conditions_Minimum_floor_compressive_strength
+- rule: return_HD1500_Floor_Conditions_Minimum_coefficient_of_friction
+  steps:
+  - intent: HD1500_Floor_Conditions_Minimum_coefficient_of_friction
+  - action: utter_HD1500_Floor_Conditions_Minimum_coefficient_of_friction
+- rule: return_HD1500_Navigation_Routing
+  steps:
+  - intent: HD1500_Navigation_Routing
+  - action: utter_HD1500_Navigation_Routing
+- rule: return_HD1500_Navigation_Environmental_mapmaking_method
+  steps:
+  - intent: HD1500_Navigation_Environmental_mapmaking_method
+  - action: utter_HD1500_Navigation_Environmental_mapmaking_method
+- rule: return_HD1500_Maximum_Payload_Capacity
+  steps:
+  - intent: HD1500_Maximum_Payload_Capacity
+  - action: utter_HD1500_Maximum_Payload_Capacity
+- rule: return_HD1500_Mobility_Run_Time_*1
+  steps:
+  - intent: HD1500_Mobility_Run_Time_*1
+  - action: utter_HD1500_Mobility_Run_Time_*1
+- rule: return_HD1500_Mobility_Maximum_translational_speed__*2
+  steps:
+  - intent: HD1500_Mobility_Maximum_translational_speed__*2
+  - action: utter_HD1500_Mobility_Maximum_translational_speed__*2
+- rule: return_HD1500_Mobility_Maximum_rotation_speed
+  steps:
+  - intent: HD1500_Mobility_Maximum_rotation_speed
+  - action: utter_HD1500_Mobility_Maximum_rotation_speed
+- rule: return_HD1500_Mobility_Swing_radius
+  steps:
+  - intent: HD1500_Mobility_Swing_radius
+  - action: utter_HD1500_Mobility_Swing_radius
+- rule: return_HD1500_Mobility_Turn_radius
+  steps:
+  - intent: HD1500_Mobility_Turn_radius
+  - action: utter_HD1500_Mobility_Turn_radius
+- rule: return_HD1500_Mobility_Maximum_translational_acceleration
+  steps:
+  - intent: HD1500_Mobility_Maximum_translational_acceleration
+  - action: utter_HD1500_Mobility_Maximum_translational_acceleration
+- rule: return_HD1500_Mobility_Maximum_rotational_accelerationdeceleration
+  steps:
+  - intent: HD1500_Mobility_Maximum_rotational_accelerationdeceleration
+  - action: utter_HD1500_Mobility_Maximum_rotational_accelerationdeceleration
+- rule: return_HD1500_Mobility_Maximum_moment_of_inertia
+  steps:
+  - intent: HD1500_Mobility_Maximum_moment_of_inertia
+  - action: utter_HD1500_Mobility_Maximum_moment_of_inertia
+- rule: return_HD1500_Mobility_Stop_position_repeatability_
+  steps:
+  - intent: HD1500_Mobility_Stop_position_repeatability_
+  - action: utter_HD1500_Mobility_Stop_position_repeatability_
+- rule: return_HD1500_Drive_wheels_Materials
+  steps:
+  - intent: HD1500_Drive_wheels_Materials
+  - action: utter_HD1500_Drive_wheels_Materials
+- rule: return_HD1500_Passive_casters_Materials
+  steps:
+  - intent: HD1500_Passive_casters_Materials
+  - action: utter_HD1500_Passive_casters_Materials
+- rule: return_HD1500_Auxiliary_Power_Unregulated
+  steps:
+  - intent: HD1500_Auxiliary_Power_Unregulated
+  - action: utter_HD1500_Auxiliary_Power_Unregulated
+- rule: return_HD1500_Auxiliary_Power_Regulated
+  steps:
+  - intent: HD1500_Auxiliary_Power_Regulated
+  - action: utter_HD1500_Auxiliary_Power_Regulated
+- rule: return_HD1500_Standard_Harmonized_standard
+  steps:
+  - intent: HD1500_Standard_Harmonized_standard
+  - action: utter_HD1500_Standard_Harmonized_standard
+- rule: return_HD1500_Standard_Relevant_standard
+  steps:
+  - intent: HD1500_Standard_Relevant_standard
+  - action: utter_HD1500_Standard_Relevant_standard
+- rule: return_HD1500_Standard_Wireless
+  steps:
+  - intent: HD1500_Standard_Wireless
+  - action: utter_HD1500_Standard_Wireless
+- rule: return_HD1500_Signal_Interfaces_Wireless
+  steps:
+  - intent: HD1500_Signal_Interfaces_Wireless
+  - action: utter_HD1500_Signal_Interfaces_Wireless
+- rule: return_HD1500_Signal_Interfaces_Ethernet_port
+  steps:
+  - intent: HD1500_Signal_Interfaces_Ethernet_port
+  - action: utter_HD1500_Signal_Interfaces_Ethernet_port
+- rule: return_HD1500_Signal_Interfaces_Digital_IO
+  steps:
+  - intent: HD1500_Signal_Interfaces_Digital_IO
+  - action: utter_HD1500_Signal_Interfaces_Digital_IO
+- rule: return_HD1500_Signal_Interfaces_Analog_IO
+  steps:
+  - intent: HD1500_Signal_Interfaces_Analog_IO
+  - action: utter_HD1500_Signal_Interfaces_Analog_IO
+- rule: return_HD1500_Signal_Interfaces_Audio
+  steps:
+  - intent: HD1500_Signal_Interfaces_Audio
+  - action: utter_HD1500_Signal_Interfaces_Audio
+- rule: return_HD1500_Safety_Features_Safety_Scanning_Lasers
+  steps:
+  - intent: HD1500_Safety_Features_Safety_Scanning_Lasers
+  - action: utter_HD1500_Safety_Features_Safety_Scanning_Lasers
+- rule: return_HD1500_Safety_Features_ESTOP_Buttons
+  steps:
+  - intent: HD1500_Safety_Features_ESTOP_Buttons
+  - action: utter_HD1500_Safety_Features_ESTOP_Buttons
+- rule: return_HD1500_Safety_Features_Low_Lasers
+  steps:
+  - intent: HD1500_Safety_Features_Low_Lasers
+  - action: utter_HD1500_Safety_Features_Low_Lasers
+- rule: return_HD1500_Safety_Features_Side_Lasers_
+  steps:
+  - intent: HD1500_Safety_Features_Side_Lasers_
+  - action: utter_HD1500_Safety_Features_Side_Lasers_
+- rule: return_HD1500_Safety_Features_Visual_Indicators
+  steps:
+  - intent: HD1500_Safety_Features_Visual_Indicators
+  - action: utter_HD1500_Safety_Features_Visual_Indicators
+- rule: return_HD1500_Safety_Features_Audible_Indicators
+  steps:
+  - intent: HD1500_Safety_Features_Audible_Indicators
+  - action: utter_HD1500_Safety_Features_Audible_Indicators
+- rule: return_HD1500_Safety_Features_Emergency_Stop_Interface
+  steps:
+  - intent: HD1500_Safety_Features_Emergency_Stop_Interface
+  - action: utter_HD1500_Safety_Features_Emergency_Stop_Interface
+- rule: return_HD1500_Safety_Features_Safety_Outputs
+  steps:
+  - intent: HD1500_Safety_Features_Safety_Outputs
+  - action: utter_HD1500_Safety_Features_Safety_Outputs
+- rule: return_HD1500_Safety_Features_Protective_Stop_Interface
+  steps:
+  - intent: HD1500_Safety_Features_Protective_Stop_Interface
+  - action: utter_HD1500_Safety_Features_Protective_Stop_Interface
+- rule: return_HD1500_Operator_Panel_Display
+  steps:
+  - intent: HD1500_Operator_Panel_Display
+  - action: utter_HD1500_Operator_Panel_Display
+- rule: return_HD1500_Operator_Panel_Controls
+  steps:
+  - intent: HD1500_Operator_Panel_Controls
+  - action: utter_HD1500_Operator_Panel_Controls
+- rule: return_MobilePlanner_Software_CPU
+  steps:
+  - intent: MobilePlanner_Software_CPU
+  - action: utter_MobilePlanner_Software_CPU
+- rule: return_MobilePlanner_Software_Main_Memory
+  steps:
+  - intent: MobilePlanner_Software_Main_Memory
+  - action: utter_MobilePlanner_Software_Main_Memory
+- rule: return_MobilePlanner_Software_Hard_Disk
+  steps:
+  - intent: MobilePlanner_Software_Hard_Disk
+  - action: utter_MobilePlanner_Software_Hard_Disk
+- rule: return_MobilePlanner_Software_Video_Memory
+  steps:
+  - intent: MobilePlanner_Software_Video_Memory
+  - action: utter_MobilePlanner_Software_Video_Memory
+- rule: return_MobilePlanner_Software_Display
+  steps:
+  - intent: MobilePlanner_Software_Display
+  - action: utter_MobilePlanner_Software_Display
+- rule: return_MobilePlanner_Software_Supported_Languages
+  steps:
+  - intent: MobilePlanner_Software_Supported_Languages
+  - action: utter_MobilePlanner_Software_Supported_Languages
+- rule: return_Acuity_Localization_Field_of_View
+  steps:
+  - intent: Acuity_Localization_Field_of_View
+  - action: utter_Acuity_Localization_Field_of_View
+- rule: return_Acuity_Localization_Power_Input
+  steps:
+  - intent: Acuity_Localization_Power_Input
+  - action: utter_Acuity_Localization_Power_Input
+- rule: return_Acuity_Localization_Power_Consumption
+  steps:
+  - intent: Acuity_Localization_Power_Consumption
+  - action: utter_Acuity_Localization_Power_Consumption
+- rule: return_Joystick_Pendant_Weight
+  steps:
+  - intent: Joystick_Pendant_Weight
+  - action: utter_Joystick_Pendant_Weight
+- rule: return_Joystick_Pendant_IP_Rating
+  steps:
+  - intent: Joystick_Pendant_IP_Rating
+  - action: utter_Joystick_Pendant_IP_Rating
+- rule: return_Docking_Station_Current
+  steps:
+  - intent: Docking_Station_Current
+  - action: utter_Docking_Station_Current
+- rule: return_Docking_Station_Power
+  steps:
+  - intent: Docking_Station_Power
+  - action: utter_Docking_Station_Power
+- rule: return_Docking_Station_Power_Consumption
+  steps:
+  - intent: Docking_Station_Power_Consumption
+  - action: utter_Docking_Station_Power_Consumption
+- rule: return_Docking_Station_Humidity
+  steps:
+  - intent: Docking_Station_Humidity
+  - action: utter_Docking_Station_Humidity
+- rule: return_Docking_Station_Temperature
+  steps:
+  - intent: Docking_Station_Temperature
+  - action: utter_Docking_Station_Temperature
+- rule: return_Docking_Station_Dimensions_
+  steps:
+  - intent: Docking_Station_Dimensions_
+  - action: utter_Docking_Station_Dimensions_
+- rule: return_Docking_Station_Weight
+  steps:
+  - intent: Docking_Station_Weight
+  - action: utter_Docking_Station_Weight
+- rule: return_Docking_Station_Mounting
+  steps:
+  - intent: Docking_Station_Mounting
+  - action: utter_Docking_Station_Mounting
+- rule: return_Docking_Station_Indicators
+  steps:
+  - intent: Docking_Station_Indicators
+  - action: utter_Docking_Station_Indicators
+- rule: return_Docking_Station_Connector
+  steps:
+  - intent: Docking_Station_Connector
+  - action: utter_Docking_Station_Connector
+- rule: return_LD_Series_Battery_Run_Time_
+  steps:
+  - intent: LD_Series_Battery_Run_Time_
+  - action: utter_LD_Series_Battery_Run_Time_
+- rule: return_LD_Series_Battery_Weight
+  steps:
+  - intent: LD_Series_Battery_Weight
+  - action: utter_LD_Series_Battery_Weight
+- rule: return_LD_Series_Battery_Voltage
+  steps:
+  - intent: LD_Series_Battery_Voltage
+  - action: utter_LD_Series_Battery_Voltage
+- rule: return_LD_Series_Battery_Capacity
+  steps:
+  - intent: LD_Series_Battery_Capacity
+  - action: utter_LD_Series_Battery_Capacity
+- rule: return_LD_Series_Battery_Recharge_Time
+  steps:
+  - intent: LD_Series_Battery_Recharge_Time
+  - action: utter_LD_Series_Battery_Recharge_Time
+- rule: return_LD_Series_Battery_Life_Expectancy
+  steps:
+  - intent: LD_Series_Battery_Life_Expectancy
+  - action: utter_LD_Series_Battery_Life_Expectancy
+- rule: return_LD_Series_Battery_Charging_Method
+  steps:
+  - intent: LD_Series_Battery_Charging_Method
+  - action: utter_LD_Series_Battery_Charging_Method
+- rule: return_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+  steps:
+  - intent: LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+  - action: utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+- rule: return_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+  steps:
+  - intent: LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+  - action: utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+- rule: return_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Single_AMR
+  steps:
+  - intent: LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Single_AMR
+  - action: utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Single_AMR
+- rule: return_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Fleet
+  steps:
+  - intent: LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Fleet
+  - action: utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Fleet
+- rule: return_LD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+  steps:
+  - intent: LD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+  - action: utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+- rule: return_High_Accuracy_Positioning_System_HAPS_Sensor_Depth
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Sensor_Depth
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Sensor_Depth
+- rule: return_High_Accuracy_Positioning_System_HAPS_Sensor_Width
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Sensor_Width
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Sensor_Width
+- rule: return_High_Accuracy_Positioning_System_HAPS_Sensor_Ingress_Protection_Class
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Sensor_Ingress_Protection_Class
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Sensor_Ingress_Protection_Class
+- rule: return_High_Accuracy_Positioning_System_HAPS_Sensor_Environment
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Sensor_Environment
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Sensor_Environment
+- rule: return_High_Accuracy_Positioning_System_HAPS_Sensor_LEDs
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Sensor_LEDs
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Sensor_LEDs
+- rule: return_High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Width
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Width
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Width
+- rule: return_High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Orientation
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Orientation
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Orientation
+- rule: return_High_Accuracy_Positioning_System_HAPS_Markers__Width
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Markers__Width
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Markers__Width
+- rule: return_High_Accuracy_Positioning_System_HAPS_Markers__Length
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Markers__Length
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Markers__Length
+- rule: return_High_Accuracy_Positioning_System_HAPS_Markers__Orientation
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Markers__Orientation
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Markers__Orientation
+- rule: return_High_Accuracy_Positioning_System_HAPS_Markers__Separation_From_Tape
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Markers__Separation_From_Tape
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Markers__Separation_From_Tape
+- rule: return_High_Accuracy_Positioning_System_HAPS_Connections_Front_Sensor
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Connections_Front_Sensor
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Connections_Front_Sensor
+- rule: return_High_Accuracy_Positioning_System_HAPS_Connections_Rear_Sensor
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Connections_Rear_Sensor
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Connections_Rear_Sensor
+- rule: return_High_Accuracy_Positioning_System_HAPS_Connections_Power_Both_Sensors
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Connections_Power_Both_Sensors
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Connections_Power_Both_Sensors
+- rule: return_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+- rule: return_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+- rule: return_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Single_AMR
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Single_AMR
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Single_AMR
+- rule: return_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Fleet
+  steps:
+  - intent: High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Fleet
+  - action: utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Fleet
+- rule: return_LD_Series_EM2100_Appliance_Weight
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Weight
+  - action: utter_LD_Series_EM2100_Appliance_Weight
+- rule: return_LD_Series_EM2100_Appliance_Mounting_method
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Mounting_method
+  - action: utter_LD_Series_EM2100_Appliance_Mounting_method
+- rule: return_LD_Series_EM2100_Appliance_Power_Supply
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Power_Supply
+  - action: utter_LD_Series_EM2100_Appliance_Power_Supply
+- rule: return_LD_Series_EM2100_Appliance_Power_Consumption
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Power_Consumption
+  - action: utter_LD_Series_EM2100_Appliance_Power_Consumption
+- rule: return_LD_Series_EM2100_Appliance_Operating_Temperature
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Operating_Temperature
+  - action: utter_LD_Series_EM2100_Appliance_Operating_Temperature
+- rule: return_LD_Series_EM2100_Appliance_Storage_Temperature
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Storage_Temperature
+  - action: utter_LD_Series_EM2100_Appliance_Storage_Temperature
+- rule: return_LD_Series_EM2100_Appliance_Operating_Humidity
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Operating_Humidity
+  - action: utter_LD_Series_EM2100_Appliance_Operating_Humidity
+- rule: return_LD_Series_EM2100_Appliance_Storage_Humidity
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Storage_Humidity
+  - action: utter_LD_Series_EM2100_Appliance_Storage_Humidity
+- rule: return_LD_Series_EM2100_Appliance_Chassis_Ingress_Protection_Class
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Chassis_Ingress_Protection_Class
+  - action: utter_LD_Series_EM2100_Appliance_Chassis_Ingress_Protection_Class
+- rule: return_LD_Series_EM2100_Appliance_CPU
+  steps:
+  - intent: LD_Series_EM2100_Appliance_CPU
+  - action: utter_LD_Series_EM2100_Appliance_CPU
+- rule: return_LD_Series_EM2100_Appliance_Main_Memory
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Main_Memory
+  - action: utter_LD_Series_EM2100_Appliance_Main_Memory
+- rule: return_LD_Series_EM2100_Appliance_Storage
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Storage
+  - action: utter_LD_Series_EM2100_Appliance_Storage
+- rule: return_LD_Series_EM2100_Appliance_Archive_Storage
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Archive_Storage
+  - action: utter_LD_Series_EM2100_Appliance_Archive_Storage
+- rule: return_LD_Series_EM2100_Appliance_Communication_ports
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Communication_ports
+  - action: utter_LD_Series_EM2100_Appliance_Communication_ports
+- rule: return_LD_Series_EM2100_Appliance_Status_Display
+  steps:
+  - intent: LD_Series_EM2100_Appliance_Status_Display
+  - action: utter_LD_Series_EM2100_Appliance_Status_Display
+- rule: return_LD250_Weight
+  steps:
+  - intent: LD250_Weight
+  - action: utter_LD250_Weight
+- rule: return_LD250_Environment_Ambient_temperature
+  steps:
+  - intent: LD250_Environment_Ambient_temperature
+  - action: utter_LD250_Environment_Ambient_temperature
+- rule: return_LD250_Environment_Ambient_humidity
+  steps:
+  - intent: LD250_Environment_Ambient_humidity
+  - action: utter_LD250_Environment_Ambient_humidity
+- rule: return_LD250_Environment_Operating_Environment
+  steps:
+  - intent: LD250_Environment_Operating_Environment
+  - action: utter_LD250_Environment_Operating_Environment
+- rule: return_LD250_Environment_Ingress_Protection_Class
+  steps:
+  - intent: LD250_Environment_Ingress_Protection_Class
+  - action: utter_LD250_Environment_Ingress_Protection_Class
+- rule: return_LD250_Environment_Cleanroom_rating
+  steps:
+  - intent: LD250_Environment_Cleanroom_rating
+  - action: utter_LD250_Environment_Cleanroom_rating
+- rule: return_LD250_Floor_Conditions_Floor_Condition
+  steps:
+  - intent: LD250_Floor_Conditions_Floor_Condition
+  - action: utter_LD250_Floor_Conditions_Floor_Condition
+- rule: return_LD250_Floor_Conditions_Minimum_floor_flatness
+  steps:
+  - intent: LD250_Floor_Conditions_Minimum_floor_flatness
+  - action: utter_LD250_Floor_Conditions_Minimum_floor_flatness
+- rule: return_LD250_Floor_Conditions_Traversable_step
+  steps:
+  - intent: LD250_Floor_Conditions_Traversable_step
+  - action: utter_LD250_Floor_Conditions_Traversable_step
+- rule: return_LD250_Floor_Conditions_Traversable_gap
+  steps:
+  - intent: LD250_Floor_Conditions_Traversable_gap
+  - action: utter_LD250_Floor_Conditions_Traversable_gap
+- rule: return_LD250_Floor_Conditions_Climb_grade
+  steps:
+  - intent: LD250_Floor_Conditions_Climb_grade
+  - action: utter_LD250_Floor_Conditions_Climb_grade
+- rule: return_LD250_Floor_Conditions_Minimum_floor_compressive_strength
+  steps:
+  - intent: LD250_Floor_Conditions_Minimum_floor_compressive_strength
+  - action: utter_LD250_Floor_Conditions_Minimum_floor_compressive_strength
+- rule: return_LD250_Navigation_Routing
+  steps:
+  - intent: LD250_Navigation_Routing
+  - action: utter_LD250_Navigation_Routing
+- rule: return_LD250_Navigation_Environmental_map_making_method
+  steps:
+  - intent: LD250_Navigation_Environmental_map_making_method
+  - action: utter_LD250_Navigation_Environmental_map_making_method
+- rule: return_LD250_Payload_Maximum_Weight
+  steps:
+  - intent: LD250_Payload_Maximum_Weight
+  - action: utter_LD250_Payload_Maximum_Weight
+- rule: return_LD250_Mobility_Maximum_Speed
+  steps:
+  - intent: LD250_Mobility_Maximum_Speed
+  - action: utter_LD250_Mobility_Maximum_Speed
+- rule: return_LD250_Mobility_Maximum_Rotation_Speed
+  steps:
+  - intent: LD250_Mobility_Maximum_Rotation_Speed
+  - action: utter_LD250_Mobility_Maximum_Rotation_Speed
+- rule: return_LD250_Mobility_Stop_Position_Repeatability_
+  steps:
+  - intent: LD250_Mobility_Stop_Position_Repeatability_
+  - action: utter_LD250_Mobility_Stop_Position_Repeatability_
+- rule: return_LD250_Drive_wheel_Materials
+  steps:
+  - intent: LD250_Drive_wheel_Materials
+  - action: utter_LD250_Drive_wheel_Materials
+- rule: return_LD250_Passive_caster_Materials
+  steps:
+  - intent: LD250_Passive_caster_Materials
+  - action: utter_LD250_Passive_caster_Materials
+- rule: return_LD250_Auxiliary_Power
+  steps:
+  - intent: LD250_Auxiliary_Power
+  - action: utter_LD250_Auxiliary_Power
+- rule: return_LD250_Standards_Harmonized_Standard
+  steps:
+  - intent: LD250_Standards_Harmonized_Standard
+  - action: utter_LD250_Standards_Harmonized_Standard
+- rule: return_LD250_Standards_Relevant_Standard
+  steps:
+  - intent: LD250_Standards_Relevant_Standard
+  - action: utter_LD250_Standards_Relevant_Standard
+- rule: return_LD250_Standards_Wireless
+  steps:
+  - intent: LD250_Standards_Wireless
+  - action: utter_LD250_Standards_Wireless
+- rule: return_LD250_Safety_Features_Safety_Scanning_Laser
+  steps:
+  - intent: LD250_Safety_Features_Safety_Scanning_Laser
+  - action: utter_LD250_Safety_Features_Safety_Scanning_Laser
+- rule: return_LD250_Safety_Features_ESTOP_Buttons
+  steps:
+  - intent: LD250_Safety_Features_ESTOP_Buttons
+  - action: utter_LD250_Safety_Features_ESTOP_Buttons
+- rule: return_LD250_Safety_Features_Rear_Sensing
+  steps:
+  - intent: LD250_Safety_Features_Rear_Sensing
+  - action: utter_LD250_Safety_Features_Rear_Sensing
+- rule: return_LD250_Safety_Features_Low_Front_Laser
+  steps:
+  - intent: LD250_Safety_Features_Low_Front_Laser
+  - action: utter_LD250_Safety_Features_Low_Front_Laser
+- rule: return_LD250_Safety_Features_Side_Laser
+  steps:
+  - intent: LD250_Safety_Features_Side_Laser
+  - action: utter_LD250_Safety_Features_Side_Laser
+- rule: return_LD250_Safety_Features_Visual_Indicators
+  steps:
+  - intent: LD250_Safety_Features_Visual_Indicators
+  - action: utter_LD250_Safety_Features_Visual_Indicators
+- rule: return_LD250_Safety_Features_Audible_Indicators
+  steps:
+  - intent: LD250_Safety_Features_Audible_Indicators
+  - action: utter_LD250_Safety_Features_Audible_Indicators
+- rule: return_LD250_Operator_Interface_Display
+  steps:
+  - intent: LD250_Operator_Interface_Display
+  - action: utter_LD250_Operator_Interface_Display
+- rule: return_LD250_Operator_Interface_Button
+  steps:
+  - intent: LD250_Operator_Interface_Button
+  - action: utter_LD250_Operator_Interface_Button
+- rule: return_LD250_User_Interface_Wireless
+  steps:
+  - intent: LD250_User_Interface_Wireless
+  - action: utter_LD250_User_Interface_Wireless
+- rule: return_LD250_User_Interface_Ethernet_Port
+  steps:
+  - intent: LD250_User_Interface_Ethernet_Port
+  - action: utter_LD250_User_Interface_Ethernet_Port
+- rule: return_LD250_User_Interface_Serial
+  steps:
+  - intent: LD250_User_Interface_Serial
+  - action: utter_LD250_User_Interface_Serial
+- rule: return_LD250_User_Interface_Digital_IO
+  steps:
+  - intent: LD250_User_Interface_Digital_IO
+  - action: utter_LD250_User_Interface_Digital_IO
+- rule: return_LD250_User_Interface_Audio
+  steps:
+  - intent: LD250_User_Interface_Audio
+  - action: utter_LD250_User_Interface_Audio
+- rule: return_LD250_Cart_Latching
+  steps:
+  - intent: LD250_Cart_Latching
+  - action: utter_LD250_Cart_Latching
+- rule: return_LD60_Weight_
+  steps:
+  - intent: LD60_Weight_
+  - action: utter_LD60_Weight_
+- rule: return_LD90_Weight_
+  steps:
+  - intent: LD90_Weight_
+  - action: utter_LD90_Weight_
+- rule: return_LD60_Environment_Ambient_temperature
+  steps:
+  - intent: LD60_Environment_Ambient_temperature
+  - action: utter_LD60_Environment_Ambient_temperature
+- rule: return_LD90_Environment_Ambient_temperature
+  steps:
+  - intent: LD90_Environment_Ambient_temperature
+  - action: utter_LD90_Environment_Ambient_temperature
+- rule: return_LD60_Environment_Ambient_humidity
+  steps:
+  - intent: LD60_Environment_Ambient_humidity
+  - action: utter_LD60_Environment_Ambient_humidity
+- rule: return_LD90_Environment_Ambient_humidity
+  steps:
+  - intent: LD90_Environment_Ambient_humidity
+  - action: utter_LD90_Environment_Ambient_humidity
+- rule: return_LD60_Environment_Operating_Environment
+  steps:
+  - intent: LD60_Environment_Operating_Environment
+  - action: utter_LD60_Environment_Operating_Environment
+- rule: return_LD90_Environment_Operating_Environment
+  steps:
+  - intent: LD90_Environment_Operating_Environment
+  - action: utter_LD90_Environment_Operating_Environment
+- rule: return_LD60_Environment_Ingress_Protection_Class
+  steps:
+  - intent: LD60_Environment_Ingress_Protection_Class
+  - action: utter_LD60_Environment_Ingress_Protection_Class
+- rule: return_LD90_Environment_Ingress_Protection_Class
+  steps:
+  - intent: LD90_Environment_Ingress_Protection_Class
+  - action: utter_LD90_Environment_Ingress_Protection_Class
+- rule: return_LD60_Environment_Cleanroom_rating
+  steps:
+  - intent: LD60_Environment_Cleanroom_rating
+  - action: utter_LD60_Environment_Cleanroom_rating
+- rule: return_LD90_Environment_Cleanroom_rating
+  steps:
+  - intent: LD90_Environment_Cleanroom_rating
+  - action: utter_LD90_Environment_Cleanroom_rating
+- rule: return_LD60_Floor_Conditions_Minimum_floor_flatness
+  steps:
+  - intent: LD60_Floor_Conditions_Minimum_floor_flatness
+  - action: utter_LD60_Floor_Conditions_Minimum_floor_flatness
+- rule: return_LD90_Floor_Conditions_Minimum_floor_flatness
+  steps:
+  - intent: LD90_Floor_Conditions_Minimum_floor_flatness
+  - action: utter_LD90_Floor_Conditions_Minimum_floor_flatness
+- rule: return_LD60_Floor_Conditions_Traversable_step
+  steps:
+  - intent: LD60_Floor_Conditions_Traversable_step
+  - action: utter_LD60_Floor_Conditions_Traversable_step
+- rule: return_LD90_Floor_Conditions_Traversable_step
+  steps:
+  - intent: LD90_Floor_Conditions_Traversable_step
+  - action: utter_LD90_Floor_Conditions_Traversable_step
+- rule: return_LD60_Floor_Conditions_Traversable_gap
+  steps:
+  - intent: LD60_Floor_Conditions_Traversable_gap
+  - action: utter_LD60_Floor_Conditions_Traversable_gap
+- rule: return_LD90_Floor_Conditions_Traversable_gap
+  steps:
+  - intent: LD90_Floor_Conditions_Traversable_gap
+  - action: utter_LD90_Floor_Conditions_Traversable_gap
+- rule: return_LD60_Floor_Conditions_Climb_grade
+  steps:
+  - intent: LD60_Floor_Conditions_Climb_grade
+  - action: utter_LD60_Floor_Conditions_Climb_grade
+- rule: return_LD90_Floor_Conditions_Climb_grade
+  steps:
+  - intent: LD90_Floor_Conditions_Climb_grade
+  - action: utter_LD90_Floor_Conditions_Climb_grade
+- rule: return_LD60_Floor_Conditions_Minimum_floor_compressive_strength
+  steps:
+  - intent: LD60_Floor_Conditions_Minimum_floor_compressive_strength
+  - action: utter_LD60_Floor_Conditions_Minimum_floor_compressive_strength
+- rule: return_LD90_Floor_Conditions_Minimum_floor_compressive_strength
+  steps:
+  - intent: LD90_Floor_Conditions_Minimum_floor_compressive_strength
+  - action: utter_LD90_Floor_Conditions_Minimum_floor_compressive_strength
+- rule: return_LD60_Navigation_Routing
+  steps:
+  - intent: LD60_Navigation_Routing
+  - action: utter_LD60_Navigation_Routing
+- rule: return_LD90_Navigation_Routing
+  steps:
+  - intent: LD90_Navigation_Routing
+  - action: utter_LD90_Navigation_Routing
+- rule: return_LD60_Navigation_Environmental_map_making_method
+  steps:
+  - intent: LD60_Navigation_Environmental_map_making_method
+  - action: utter_LD60_Navigation_Environmental_map_making_method
+- rule: return_LD90_Navigation_Environmental_map_making_method
+  steps:
+  - intent: LD90_Navigation_Environmental_map_making_method
+  - action: utter_LD90_Navigation_Environmental_map_making_method
+- rule: return_LD60_Payload_Maximum_Weight
+  steps:
+  - intent: LD60_Payload_Maximum_Weight
+  - action: utter_LD60_Payload_Maximum_Weight
+- rule: return_LD90_Payload_Maximum_Weight
+  steps:
+  - intent: LD90_Payload_Maximum_Weight
+  - action: utter_LD90_Payload_Maximum_Weight
+- rule: return_LD60_Mobility_Maximum_Speed
+  steps:
+  - intent: LD60_Mobility_Maximum_Speed
+  - action: utter_LD60_Mobility_Maximum_Speed
+- rule: return_LD90_Mobility_Maximum_Speed
+  steps:
+  - intent: LD90_Mobility_Maximum_Speed
+  - action: utter_LD90_Mobility_Maximum_Speed
+- rule: return_LD60_Mobility_Maximum_Rotation_Speed
+  steps:
+  - intent: LD60_Mobility_Maximum_Rotation_Speed
+  - action: utter_LD60_Mobility_Maximum_Rotation_Speed
+- rule: return_LD90_Mobility_Maximum_Rotation_Speed
+  steps:
+  - intent: LD90_Mobility_Maximum_Rotation_Speed
+  - action: utter_LD90_Mobility_Maximum_Rotation_Speed
+- rule: return_LD60_Mobility_Stop_Position_Repeatability_
+  steps:
+  - intent: LD60_Mobility_Stop_Position_Repeatability_
+  - action: utter_LD60_Mobility_Stop_Position_Repeatability_
+- rule: return_LD90_Mobility_Stop_Position_Repeatability_
+  steps:
+  - intent: LD90_Mobility_Stop_Position_Repeatability_
+  - action: utter_LD90_Mobility_Stop_Position_Repeatability_
+- rule: return_LD60_Drive_wheels_Materials
+  steps:
+  - intent: LD60_Drive_wheels_Materials
+  - action: utter_LD60_Drive_wheels_Materials
+- rule: return_LD90_Drive_wheels_Materials
+  steps:
+  - intent: LD90_Drive_wheels_Materials
+  - action: utter_LD90_Drive_wheels_Materials
+- rule: return_LD60_Passive_casters_Materials
+  steps:
+  - intent: LD60_Passive_casters_Materials
+  - action: utter_LD60_Passive_casters_Materials
+- rule: return_LD90_Passive_casters_Materials
+  steps:
+  - intent: LD90_Passive_casters_Materials
+  - action: utter_LD90_Passive_casters_Materials
+- rule: return_LD60_Auxiliary_Power
+  steps:
+  - intent: LD60_Auxiliary_Power
+  - action: utter_LD60_Auxiliary_Power
+- rule: return_LD90_Auxiliary_Power
+  steps:
+  - intent: LD90_Auxiliary_Power
+  - action: utter_LD90_Auxiliary_Power
+- rule: return_LD60_Standard_Harmonized_Standard
+  steps:
+  - intent: LD60_Standard_Harmonized_Standard
+  - action: utter_LD60_Standard_Harmonized_Standard
+- rule: return_LD90_Standard_Harmonized_Standard
+  steps:
+  - intent: LD90_Standard_Harmonized_Standard
+  - action: utter_LD90_Standard_Harmonized_Standard
+- rule: return_LD60_Standard_Relevant_Standard
+  steps:
+  - intent: LD60_Standard_Relevant_Standard
+  - action: utter_LD60_Standard_Relevant_Standard
+- rule: return_LD90_Standard_Relevant_Standard
+  steps:
+  - intent: LD90_Standard_Relevant_Standard
+  - action: utter_LD90_Standard_Relevant_Standard
+- rule: return_LD60_Standard_Wireless
+  steps:
+  - intent: LD60_Standard_Wireless
+  - action: utter_LD60_Standard_Wireless
+- rule: return_LD90_Standard_Wireless
+  steps:
+  - intent: LD90_Standard_Wireless
+  - action: utter_LD90_Standard_Wireless
+- rule: return_LD60_Safety_Features_Safety_Scanning_Laser
+  steps:
+  - intent: LD60_Safety_Features_Safety_Scanning_Laser
+  - action: utter_LD60_Safety_Features_Safety_Scanning_Laser
+- rule: return_LD90_Safety_Features_Safety_Scanning_Laser
+  steps:
+  - intent: LD90_Safety_Features_Safety_Scanning_Laser
+  - action: utter_LD90_Safety_Features_Safety_Scanning_Laser
+- rule: return_LD60_Safety_Features_ESTOP_Buttons
+  steps:
+  - intent: LD60_Safety_Features_ESTOP_Buttons
+  - action: utter_LD60_Safety_Features_ESTOP_Buttons
+- rule: return_LD90_Safety_Features_ESTOP_Buttons
+  steps:
+  - intent: LD90_Safety_Features_ESTOP_Buttons
+  - action: utter_LD90_Safety_Features_ESTOP_Buttons
+- rule: return_LD60_Safety_Features_Rear_Sonar
+  steps:
+  - intent: LD60_Safety_Features_Rear_Sonar
+  - action: utter_LD60_Safety_Features_Rear_Sonar
+- rule: return_LD90_Safety_Features_Rear_Sonar
+  steps:
+  - intent: LD90_Safety_Features_Rear_Sonar
+  - action: utter_LD90_Safety_Features_Rear_Sonar
+- rule: return_LD60_Safety_Features_Front_Bumper
+  steps:
+  - intent: LD60_Safety_Features_Front_Bumper
+  - action: utter_LD60_Safety_Features_Front_Bumper
+- rule: return_LD90_Safety_Features_Front_Bumper
+  steps:
+  - intent: LD90_Safety_Features_Front_Bumper
+  - action: utter_LD90_Safety_Features_Front_Bumper
+- rule: return_LD60_Safety_Features_Low_Front_Laser
+  steps:
+  - intent: LD60_Safety_Features_Low_Front_Laser
+  - action: utter_LD60_Safety_Features_Low_Front_Laser
+- rule: return_LD90_Safety_Features_Low_Front_Laser
+  steps:
+  - intent: LD90_Safety_Features_Low_Front_Laser
+  - action: utter_LD90_Safety_Features_Low_Front_Laser
+- rule: return_LD60_Safety_Features_Side_Laser
+  steps:
+  - intent: LD60_Safety_Features_Side_Laser
+  - action: utter_LD60_Safety_Features_Side_Laser
+- rule: return_LD90_Safety_Features_Side_Laser
+  steps:
+  - intent: LD90_Safety_Features_Side_Laser
+  - action: utter_LD90_Safety_Features_Side_Laser
+- rule: return_LD60_Safety_Features_Rear_Laser
+  steps:
+  - intent: LD60_Safety_Features_Rear_Laser
+  - action: utter_LD60_Safety_Features_Rear_Laser
+- rule: return_LD90_Safety_Features_Rear_Laser
+  steps:
+  - intent: LD90_Safety_Features_Rear_Laser
+  - action: utter_LD90_Safety_Features_Rear_Laser
+- rule: return_LD60_Safety_Features_Visual_Indicators
+  steps:
+  - intent: LD60_Safety_Features_Visual_Indicators
+  - action: utter_LD60_Safety_Features_Visual_Indicators
+- rule: return_LD90_Safety_Features_Visual_Indicators
+  steps:
+  - intent: LD90_Safety_Features_Visual_Indicators
+  - action: utter_LD90_Safety_Features_Visual_Indicators
+- rule: return_LD60_Safety_Features_Audible_Indicators
+  steps:
+  - intent: LD60_Safety_Features_Audible_Indicators
+  - action: utter_LD60_Safety_Features_Audible_Indicators
+- rule: return_LD90_Safety_Features_Audible_Indicators
+  steps:
+  - intent: LD90_Safety_Features_Audible_Indicators
+  - action: utter_LD90_Safety_Features_Audible_Indicators
+- rule: return_LD60_Operator_Interface_Display
+  steps:
+  - intent: LD60_Operator_Interface_Display
+  - action: utter_LD60_Operator_Interface_Display
+- rule: return_LD90_Operator_Interface_Display
+  steps:
+  - intent: LD90_Operator_Interface_Display
+  - action: utter_LD90_Operator_Interface_Display
+- rule: return_LD60_Operator_Interface_Button
+  steps:
+  - intent: LD60_Operator_Interface_Button
+  - action: utter_LD60_Operator_Interface_Button
+- rule: return_LD90_Operator_Interface_Button
+  steps:
+  - intent: LD90_Operator_Interface_Button
+  - action: utter_LD90_Operator_Interface_Button
+- rule: return_LD60_User_Interface_Wireless
+  steps:
+  - intent: LD60_User_Interface_Wireless
+  - action: utter_LD60_User_Interface_Wireless
+- rule: return_LD90_User_Interface_Wireless
+  steps:
+  - intent: LD90_User_Interface_Wireless
+  - action: utter_LD90_User_Interface_Wireless
+- rule: return_LD60_User_Interface_Ethernet_Port
+  steps:
+  - intent: LD60_User_Interface_Ethernet_Port
+  - action: utter_LD60_User_Interface_Ethernet_Port
+- rule: return_LD90_User_Interface_Ethernet_Port
+  steps:
+  - intent: LD90_User_Interface_Ethernet_Port
+  - action: utter_LD90_User_Interface_Ethernet_Port
+- rule: return_LD60_User_Interface_Serial
+  steps:
+  - intent: LD60_User_Interface_Serial
+  - action: utter_LD60_User_Interface_Serial
+- rule: return_LD90_User_Interface_Serial
+  steps:
+  - intent: LD90_User_Interface_Serial
+  - action: utter_LD90_User_Interface_Serial
+- rule: return_LD60_User_Interface_Digital_IO
+  steps:
+  - intent: LD60_User_Interface_Digital_IO
+  - action: utter_LD60_User_Interface_Digital_IO
+- rule: return_LD90_User_Interface_Digital_IO
+  steps:
+  - intent: LD90_User_Interface_Digital_IO
+  - action: utter_LD90_User_Interface_Digital_IO
+- rule: return_LD60_User_Interface_Audio
+  steps:
+  - intent: LD60_User_Interface_Audio
+  - action: utter_LD60_User_Interface_Audio
+- rule: return_LD90_User_Interface_Audio
+  steps:
+  - intent: LD90_User_Interface_Audio
+  - action: utter_LD90_User_Interface_Audio
+- rule: return_LD60_Cart_Latching_Latching_Method
+  steps:
+  - intent: LD60_Cart_Latching_Latching_Method
+  - action: utter_LD60_Cart_Latching_Latching_Method
+- rule: return_LD90_Cart_Latching_Latching_Method
+  steps:
+  - intent: LD90_Cart_Latching_Latching_Method
+  - action: utter_LD90_Cart_Latching_Latching_Method
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: Fallback Rule
+  steps:
+  - intent: nlu_fallback
+  - action: action_fallback
