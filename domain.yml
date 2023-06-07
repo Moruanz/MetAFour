@@ -1,0 +1,928 @@
+version: "3.1" 
+
+intents:
+  - Acuity_Localization_Power_Input
+  - Charging_Station_Storage_Temperature
+  - Charging_Station_Ambient_Operating_Temperature
+  - LD250_Mobility_Maximum_Rotation_Speed
+  - LD60_Floor_Conditions_Climb_grade
+  - LD250_User_Interface_Ethernet_Port
+  - Charging_Station_Maximum_Current
+  - MobilePlanner_Software_Display
+  - LD_Series_EM2100_Appliance_CPU
+  - LD60_Mobility_Maximum_Rotation_Speed
+  - LD250_Floor_Conditions_Traversable_step
+  - LD60_Environment_Ambient_temperature
+  - High_Accuracy_Positioning_System_Markers__Width
+  - Acuity_Localization_Power_Consumption
+  - HD1500_Standard_Harmonized_standard
+  - LD90_Navigation_Routing
+  - LD250_Standards_Harmonized_Standard
+  - HD_Series_EM2100_Appliance_Communication_port
+  - HD1500_Navigation_Environmental_mapmaking_method
+  - HD1500_Operator_Panel_Display
+  - HD1500_Floor_Conditions_Traversable_gap
+  - MobilePlanner_Software_Video_Memory
+  - LD250_Passive_caster_Materials
+  - HD1500_Signal_Interfaces_Audio
+  - LD250_Standards_Wireless
+  - LD60_Floor_Conditions_Minimum_floor_flatness
+  - LD90_Environment_Ambient_temperature
+  - HD1500_Environment_Operating_environment
+  - High_Accuracy_Positioning_System_HAPS_Sensor_Depth
+  - LD_Series_EM2100_Appliance_Archive_Storage
+  - LD60_User_Interface_Digital_IO
+  - HD_Series_EM2100_Appliance_Power_Consumption
+  - High_Accuracy_Positioning_System_Ingress_Protection
+  - LD_Series_EM2100_Appliance_Storage_Humidity
+  - HD_Series_EM2100_Appliance_Main_Memory
+  - LD60_Environment_Operating_Environment
+  - goodbye
+  - mood_great
+  - LD60_Environment_Ambient_humidity
+  - LD60_Safety_Features_Low_Front_Laser
+  - LD90_Safety_Features_Low_Front_Laser
+  - HD1500_Mobility_Maximum_translational_acceleration
+  - HD1500_Auxiliary_Power_Unregulated
+  - LD60_Floor_Conditions_Traversable_gap
+  - Docking_Station_Current
+  - bot_challenge
+  - Charging_Station_Power_Consumption
+  - High_Accuracy_Positioning_System_HAPS_Sensor_Ingress_Protection_Class
+  - HD_Series_Battery_Ambient_Operating_Temperature
+  - High_Accuracy_Positioning_System_HAPS_Sensor_Width
+  - LD90_Environment_Ambient_humidity
+  - LD90_Floor_Conditions_Minimum_floor_flatness
+  - LD250_Environment_Ambient_humidity
+  - Charging_Station_Ingress_Protection_Class
+  - High_Accuracy_Positioning_System_HAPS_Markers__Orientation
+  - LD90_Operator_Interface_Display
+  - LD250_Floor_Conditions_Floor_Condition
+  - High_Accuracy_Positioning_System_HAPS_Markers__Width
+  - High_Accuracy_Positioning_System_HAPS_Markers__Separation_From_Tape
+  - Acuity_Localization_Field_of_View
+  - LD250_Safety_Features_Side_Laser
+  - LD90_Payload_Maximum_Weight
+  - LD90_Standard_Harmonized_Standard
+  - HD1500_Drive_wheels_Materials
+  - HD1500_Mobility_Maximum_rotation_speed
+  - LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+  - High_Accuracy_Positioning_System_HAPS_Connections_Front_Sensor
+  - Pendant_Ingress_Protection_Class
+  - LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Single_AMR
+  - LD250_Environment_Operating_Environment
+  - LD90_Floor_Conditions_Traversable_gap
+  - LD250_User_Interface_Digital_IO
+  - LD60_Payload_Maximum_Weight
+  - LD60_Mobility_Maximum_Speed
+  - LD90_User_Interface_Digital_IO
+  - LD250_Mobility_Stop_Position_Repeatability_
+  - HD1500_Mobility_Maximum_moment_of_inertia
+  - MobilePlanner_Software_Main_Memory
+  - High_Accuracy_Positioning_System_HAPS_Sensor_LEDs
+  - LD250_Safety_Features_Audible_Indicators
+  - LD60_Standard_Relevant_Standard
+  - Docking_Station_Weight
+  - High_Accuracy_Positioning_System_HAPS_Markers__Length
+  - LD250_Payload_Maximum_Weight
+  - High_Accuracy_Positioning_System_HAPS_Connections_Power_Both_Sensors
+  - HD1500_Standard_Relevant_standard
+  - HD1500_Floor_Conditions_Maximum_Slope
+  - HD1500_Mobility_Stop_position_repeatability_
+  - LD60_User_Interface_Wireless
+  - LD60_Passive_casters_Materials
+  - LD250_Operator_Interface_Button
+  - HD1500_Navigation_Routing
+  - HD1500_Environment_Cleanroom_rating
+  - LD60_User_Interface_Serial
+  - Pendant_Ambient_Operating_Temperature
+  - HD_Series_EM2100_Appliance_Archive_Storage
+  - HD_Series_EM2100_Appliance_Storage_Humidity
+  - LD90_User_Interface_Audio
+  - LD60_Navigation_Routing
+  - LD60_Operator_Interface_Button
+  - High_Accuracy_Positioning_System_Magnetic_Tape_Orientation
+  - greet
+  - MobilePlanner_Software_Requirements_MobilePlanner_PC_Hard_Disk
+  - LD90_Weight_
+  - HD_Series_EM2100_Appliance_Power_Supply
+  - LD60_Safety_Features_ESTOP_Buttons
+  - High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Single_AMR
+  - LD60_Safety_Features_Audible_Indicators
+  - HD1500_Environment_Storage_temperature
+  - HD1500_Signal_Interfaces_Wireless
+  - High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+  - HD1500_Passive_casters_Materials
+  - LD90_Safety_Features_Front_Bumper
+  - MobilePlanner_Software_Requirements_MobilePlanner_PC_Display
+  - HD_Series_Battery_Storage_Temperature
+  - HD1500_Safety_Features_Side_Lasers_
+  - HD1500_Safety_Features_Safety_Outputs
+  - LD_Series_EM2100_Appliance_Chassis_Ingress_Protection_Class
+  - HD_Series_Battery_Weight
+  - LD250_Auxiliary_Power
+  - LD90_User_Interface_Wireless
+  - LD250_User_Interface_Audio
+  - LD90_Safety_Features_Rear_Sonar
+  - HD_Series_Battery_Charging_Method
+  - LD60_Safety_Features_Visual_Indicators
+  - HD1500_Safety_Features_Visual_Indicators
+  - LD_Series_Battery_Voltage
+  - HD_Series_EM2100_Appliance_Ingress_Protection_Class
+  - LD_Series_EM2100_Appliance_Power_Supply
+  - LD250_Environment_Ingress_Protection_Class
+  - HD_Series_EM2100_Appliance_Weight
+  - HD_Series_Battery_Voltage
+  - LD250_Cart_Latching
+  - LD60_Environment_Ingress_Protection_Class
+  - Charging_Station_Output_voltage
+  - LD60_Standard_Harmonized_Standard
+  - Docking_Station_Mounting
+  - LD_Series_EM2100_Appliance_Operating_Humidity
+  - LD250_Floor_Conditions_Traversable_gap
+  - HD1500_Environment_Ambient_humidity
+  - LD90_Navigation_Environmental_map_making_method
+  - Joystick_Pendant_IP_Rating
+  - LD60_User_Interface_Ethernet_Port
+  - LD90_User_Interface_Ethernet_Port
+  - Charging_Station_Maximum_Power_Output
+  - LD60_Drive_wheels_Materials
+  - LD90_User_Interface_Serial
+  - LD250_Safety_Features_Low_Front_Laser
+  - LD60_Safety_Features_Rear_Laser
+  - High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR
+  - LD90_Environment_Ingress_Protection_Class
+  - LD90_Safety_Features_Safety_Scanning_Laser
+  - LD_Series_EM2100_Appliance_Storage_Temperature
+  - LD90_Environment_Operating_Environment
+  - LD90_Safety_Features_Audible_Indicators
+  - High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Width
+  - LD90_Cart_Latching_Latching_Method
+  - MobilePlanner_Software_Requirements_MobilePlanner_PC_CPU
+  - HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Single_AMR
+  - HD_Series_Battery_Recharge_Time
+  - Pendant_Humidity
+  - HD_Series_EM2100_Appliance_Mounting_method
+  - HD1500_Floor_Conditions_Traversable_step
+  - High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Fleet
+  - LD250_Safety_Features_Visual_Indicators
+  - LD60_Floor_Conditions_Traversable_step
+  - LD60_Auxiliary_Power
+  - HD1500_Maximum_Payload_Capacity
+  - HD1500_Mobility_Run_Time_*1
+  - LD250_Navigation_Environmental_map_making_method
+  - LD_Series_Battery_Weight
+  - LD90_Safety_Features_Visual_Indicators
+  - LD250_Safety_Features_Safety_Scanning_Laser
+  - HD1500_Safety_Features_Protective_Stop_Interface
+  - LD60_Environment_Cleanroom_rating
+  - LD60_Navigation_Environmental_map_making_method
+  - LD250_Mobility_Maximum_Speed
+  - LD60_Safety_Features_Rear_Sonar
+  - LD60_Floor_Conditions_Minimum_floor_compressive_strength
+  - High_Accuracy_Positioning_System_Markers__Orientation
+  - High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Orientation
+  - Docking_Station_Dimensions_
+  - LD90_Auxiliary_Power
+  - High_Accuracy_Positioning_System_Markers__Length
+  - High_Accuracy_Positioning_System_Protective_covering_tape_
+  - HD_Series_EM2100_Appliance_Storage
+  - LD_Series_Battery_Capacity
+  - HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Fleet
+  - LD250_Floor_Conditions_Minimum_floor_flatness
+  - LD60_Safety_Features_Front_Bumper
+  - LD90_Floor_Conditions_Traversable_step
+  - LD90_Floor_Conditions_Minimum_floor_compressive_strength
+  - HD_Series_Battery_Ingress_Protection_Class
+  - High_Accuracy_Positioning_System_Stop_Position_Repeatability_Fleet
+  - Charging_Station_Docking_Target_Mounting
+  - HD1500_Signal_Interfaces_Ethernet_port
+  - LD250_User_Interface_Wireless
+  - HD1500_Mobility_Swing_radius
+  - Docking_Station_Connector
+  - LD90_Passive_casters_Materials
+  - HD1500_Weight_
+  - Charging_Station_Input_Voltage
+  - LD60_Operator_Interface_Display
+  - HD1500_Auxiliary_Power_Regulated
+  - LD90_Environment_Cleanroom_rating
+  - HD1500_Safety_Features_Low_Lasers
+  - LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Fleet
+  - LD60_Cart_Latching_Latching_Method
+  - HD1500_Floor_Conditions_Minimum_coefficient_of_friction
+  - MobilePlanner_Software_Requirements_Supported_Languages
+  - HD1500_Operator_Panel_Controls
+  - Charging_Station_Humidity
+  - LD250_User_Interface_Serial
+  - LD_Series_EM2100_Appliance_Power_Consumption
+  - LD_Series_EM2100_Appliance_Status_Display
+  - LD90_Safety_Features_Rear_Laser
+  - HD_Series_EM2100_Appliance_Operating_Humidity
+  - HD1500_Floor_Conditions_Minimum_floor_flatness
+  - LD_Series_EM2100_Appliance_Main_Memory
+  - LD60_Safety_Features_Safety_Scanning_Laser
+  - LD90_Safety_Features_ESTOP_Buttons
+  - HD1500_Environment_Ingress_Protection_Class
+  - HD_Series_Battery_Altitude
+  - HD1500_Safety_Features_ESTOP_Buttons
+  - LD90_Mobility_Maximum_Rotation_Speed
+  - LD90_Standard_Relevant_Standard
+  - High_Accuracy_Positioning_System_Magnetic_Tape_Width
+  - HD_Series_EM2100_Appliance_Status_Display
+  - HD1500_Signal_Interfaces_Digital_IO
+  - LD250_Safety_Features_Rear_Sensing
+  - mood_unhappy
+  - LD_Series_EM2100_Appliance_Storage
+  - HD1500_Mobility_Turn_radius
+  - LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Fleet
+  - LD90_Mobility_Stop_Position_Repeatability_
+  - MobilePlanner_Software_Requirements_MobilePlanner_PC_Video_Memory
+  - HD1500_Floor_Conditions_Minimum_floor_compressive_strength
+  - Docking_Station_Humidity
+  - LD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+  - LD_Series_EM2100_Appliance_Communication_ports
+  - LD250_Environment_Ambient_temperature
+  - LD_Series_EM2100_Appliance_Weight
+  - Docking_Station_Power
+  - LD60_Safety_Features_Side_Laser
+  - MobilePlanner_Software_Requirements_MobilePlanner_PC_Operating_System
+  - LD_Series_Battery_Life_Expectancy
+  - HD_Series_Cell_Alignment_Positioning_System_CAPS_Type
+  - LD250_Operator_Interface_Display
+  - HD_Series_Battery_Charge_Cycles
+  - LD250_Environment_Cleanroom_rating
+  - High_Accuracy_Positioning_System_HAPS_Sensor_Environment
+  - MobilePlanner_Software_CPU
+  - LD250_Weight
+  - LD60_Weight_
+  - LD60_Mobility_Stop_Position_Repeatability_
+  - HD_Series_Battery_Capacity
+  - LD250_Safety_Features_ESTOP_Buttons
+  - LD90_Standard_Wireless
+  - LD60_Standard_Wireless
+  - MobilePlanner_Software_Requirements_MobilePlanner_Tablet_Edition_Operating_System
+  - LD_Series_EM2100_Appliance_Operating_Temperature
+  - deny
+  - HD1500_Environment_Altitude
+  - HD1500_Safety_Features_Safety_Scanning_Lasers
+  - HD1500_Mobility_Maximum_translational_speed__*2
+  - Charging_Station_Weight
+  - MobilePlanner_Software_Supported_Languages
+  - HD1500_Standard_Wireless
+  - HD1500_Floor_Conditions_Floor_requirements
+  - HD1500_Environment_Ambient_temperature
+  - LD250_Floor_Conditions_Climb_grade
+  - LD250_Navigation_Routing
+  - LD90_Floor_Conditions_Climb_grade
+  - LD90_Drive_wheels_Materials
+  - LD_Series_Battery_Run_Time_
+  - HD1500_Signal_Interfaces_Analog_IO
+  - HD1500_Mobility_Maximum_rotational_accelerationdeceleration
+  - Joystick_Pendant_Weight
+  - Docking_Station_Power_Consumption
+  - LD_Series_EM2100_Appliance_Mounting_method
+  - High_Accuracy_Positioning_System_Environment
+  - Docking_Station_Temperature
+  - High_Accuracy_Positioning_System_Stop_Position_Repeatability_Single_AMR
+  - LD_Series_Battery_Recharge_Time
+  - LD90_Mobility_Maximum_Speed
+  - LD60_User_Interface_Audio
+  - HD_Series_EM2100_Appliance_Storage_Temperature
+  - High_Accuracy_Positioning_System_HAPS_Connections_Rear_Sensor
+  - affirm
+  - LD90_Safety_Features_Side_Laser
+  - Docking_Station_Indicators
+  - LD250_Standards_Relevant_Standard
+  - LD90_Operator_Interface_Button
+  - HD1500_Safety_Features_Emergency_Stop_Interface
+  - Pendant_Altitude
+  - LD250_Drive_wheel_Materials
+  - MobilePlanner_Software_Hard_Disk
+  - HD1500_Safety_Features_Audible_Indicators
+  - HD_Series_Battery_Humidity
+  - MobilePlanner_Software_Requirements_MobilePlanner_PC_Main_Memory
+  - HD_Series_EM2100_Appliance_Operating_Temperature
+  - High_Accuracy_Positioning_System_Markers__Separation_from_tape
+  - LD_Series_Battery_Charging_Method
+  - LD250_Floor_Conditions_Minimum_floor_compressive_strength
+  - Pendant_Storage_Temperature
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_did_that_help:
+  - text: "Did that help you?"
+  utter_happy:
+  - text: "Great, carry on!"
+  utter_goodbye:
+  - text: "Bye"
+  utter_iamabot:
+  - text: "I am a bot in Omron Asia, powered by Rasa OpenSource."
+  utter_HD_Series_Battery_Voltage:
+  - text: "Voltage of HD Series Battery is 48 to 56 VDC (52.8 nominal)."
+  utter_HD_Series_Battery_Capacity:
+  - text: "Capacity of HD Series Battery is 70 Ah nominal."
+  utter_HD_Series_Battery_Recharge_Time:
+  - text: "Recharge Time of HD Series Battery is 21 min. (20% to 80% charge)."
+  utter_HD_Series_Battery_Charge_Cycles:
+  - text: "Charge Cycles of HD Series Battery is 9000 recharge cycles (battery cell nominal)."
+  utter_HD_Series_Battery_Charging_Method:
+  - text: "Charging Method of HD Series Battery is Automatic or manual."
+  utter_HD_Series_Battery_Ambient_Operating_Temperature:
+  - text: "Ambient Operating Temperature of HD Series Battery is 5 to 40C."
+  utter_HD_Series_Battery_Storage_Temperature:
+  - text: "Storage Temperature of HD Series Battery is -20 to 60C (less than 2 weeks) -20 to 35C (more than 2 weeks)."
+  utter_HD_Series_Battery_Humidity:
+  - text: "Humidity of HD Series Battery is 5 to 95% non-condensing."
+  utter_HD_Series_Battery_Altitude:
+  - text: "Altitude of HD Series Battery is 4500 m operating 15240 m transporting."
+  utter_HD_Series_Battery_Ingress_Protection_Class:
+  - text: "Ingress Protection Class of HD Series Battery is IP20."
+  utter_HD_Series_Battery_Weight:
+  - text: "Weight of HD Series Battery is 69.5 kg."
+  utter_Pendant_Ambient_Operating_Temperature:
+  - text: "Ambient Operating Temperature of Pendant is 0 to 40C."
+  utter_Pendant_Storage_Temperature:
+  - text: "Storage Temperature of Pendant is -20 to 65C."
+  utter_Pendant_Humidity:
+  - text: "Humidity of Pendant is 5 to 95% non-condensing."
+  utter_Pendant_Altitude:
+  - text: "Altitude of Pendant is 2000 m."
+  utter_Pendant_Ingress_Protection_Class:
+  - text: "Ingress Protection Class of Pendant is IP30."
+  utter_HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Single_AMR:
+  - text: "Stop Position Repeatability  Single AMR of HD Series Cell Alignment Positioning System CAPS is 8 mm position 0.5 rotation."
+  utter_HD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability__Fleet:
+  - text: "Stop Position Repeatability  Fleet of HD Series Cell Alignment Positioning System CAPS is 16 mm position 0.5 rotation."
+  utter_HD_Series_Cell_Alignment_Positioning_System_CAPS_Type:
+  - text: "Type of HD Series Cell Alignment Positioning System CAPS is Software license."
+  utter_High_Accuracy_Positioning_System_Ingress_Protection:
+  - text: "Ingress Protection of High Accuracy Positioning System is IP64."
+  utter_High_Accuracy_Positioning_System_Environment:
+  - text: "Environment of High Accuracy Positioning System is -40 to 85C."
+  utter_High_Accuracy_Positioning_System_Magnetic_Tape_Width:
+  - text: "Magnetic Tape Width of High Accuracy Positioning System is 25 mm."
+  utter_High_Accuracy_Positioning_System_Magnetic_Tape_Orientation:
+  - text: "Magnetic Tape Orientation of High Accuracy Positioning System is South up."
+  utter_High_Accuracy_Positioning_System_Markers__Width:
+  - text: "Markers  Width of High Accuracy Positioning System is 25 mm."
+  utter_High_Accuracy_Positioning_System_Markers__Length:
+  - text: "Markers  Length of High Accuracy Positioning System is 300 mm min. for 500 mm/s drive speed."
+  utter_High_Accuracy_Positioning_System_Markers__Orientation:
+  - text: "Markers  Orientation of High Accuracy Positioning System is North up."
+  utter_High_Accuracy_Positioning_System_Markers__Separation_from_tape:
+  - text: "Markers  Separation from tape of High Accuracy Positioning System is 20 to 30 mm."
+  utter_High_Accuracy_Positioning_System_Protective_covering_tape_:
+  - text: "Protective covering tape  of High Accuracy Positioning System is Mighty Line Safety Floor Tape Solid (102 mm width)."
+  utter_High_Accuracy_Positioning_System_Stop_Position_Repeatability_Single_AMR:
+  - text: "Stop Position Repeatability Single AMR of High Accuracy Positioning System is 8 mm position 0.4 rotation."
+  utter_High_Accuracy_Positioning_System_Stop_Position_Repeatability_Fleet:
+  - text: "Stop Position Repeatability Fleet of High Accuracy Positioning System is 10 mm position 0.75 rotation."
+  utter_Charging_Station_Maximum_Current:
+  - text: "Maximum Current of Charging Station is Input current: 25 A Output current: 120 A (nominal) *."
+  utter_Charging_Station_Input_Voltage:
+  - text: "Input Voltage of Charging Station is 3-phase 200 to 240 VAC 50/60 Hz (Delta/Wye) 380 to 415 VAC 50/60 Hz (Wye only)."
+  utter_Charging_Station_Output_voltage:
+  - text: "Output voltage of Charging Station is 40 to 57 VDC."
+  utter_Charging_Station_Power_Consumption:
+  - text: "Power Consumption of Charging Station is 7.75 kW."
+  utter_Charging_Station_Maximum_Power_Output:
+  - text: "Maximum Power Output of Charging Station is 6.84 kW."
+  utter_Charging_Station_Humidity:
+  - text: "Humidity of Charging Station is 5 to 95% non-condensing."
+  utter_Charging_Station_Ambient_Operating_Temperature:
+  - text: "Ambient Operating Temperature of Charging Station is 5 to 40C."
+  utter_Charging_Station_Storage_Temperature:
+  - text: "Storage Temperature of Charging Station is -20 to 60C."
+  utter_Charging_Station_Ingress_Protection_Class:
+  - text: "Ingress Protection Class of Charging Station is IP20 (IP10 for charging pads)."
+  utter_Charging_Station_Weight:
+  - text: "Weight of Charging Station is Power Supply Box: 108 kg Docking Target: 27.5 kg."
+  utter_Charging_Station_Docking_Target_Mounting:
+  - text: "Docking Target Mounting of Charging Station is To floor and/or wall."
+  utter_HD_Series_EM2100_Appliance_Weight:
+  - text: "Weight of HD Series EM2100 Appliance is 9.1 kg."
+  utter_HD_Series_EM2100_Appliance_Mounting_method:
+  - text: "Mounting method of HD Series EM2100 Appliance is 1U rack mount in a standard 19-inch equipment rack."
+  utter_HD_Series_EM2100_Appliance_Power_Supply:
+  - text: "Power Supply of HD Series EM2100 Appliance is 100 to 240 VAC (typical 100 W)."
+  utter_HD_Series_EM2100_Appliance_Power_Consumption:
+  - text: "Power Consumption of HD Series EM2100 Appliance is 200 W max.."
+  utter_HD_Series_EM2100_Appliance_Operating_Temperature:
+  - text: "Operating Temperature of HD Series EM2100 Appliance is 10 to 35C."
+  utter_HD_Series_EM2100_Appliance_Storage_Temperature:
+  - text: "Storage Temperature of HD Series EM2100 Appliance is -25 to 60C."
+  utter_HD_Series_EM2100_Appliance_Operating_Humidity:
+  - text: "Operating Humidity of HD Series EM2100 Appliance is 8 to 90% non-condensing."
+  utter_HD_Series_EM2100_Appliance_Storage_Humidity:
+  - text: "Storage Humidity of HD Series EM2100 Appliance is 5 to 95% non-condensing."
+  utter_HD_Series_EM2100_Appliance_Ingress_Protection_Class:
+  - text: "Ingress Protection Class of HD Series EM2100 Appliance is IP20."
+  utter_HD_Series_EM2100_Appliance_Main_Memory:
+  - text: "Main Memory of HD Series EM2100 Appliance is 32 GB DDR3."
+  utter_HD_Series_EM2100_Appliance_Storage:
+  - text: "Storage of HD Series EM2100 Appliance is 60 GB SSD."
+  utter_HD_Series_EM2100_Appliance_Archive_Storage:
+  - text: "Archive Storage of HD Series EM2100 Appliance is 4 TB HDD."
+  utter_HD_Series_EM2100_Appliance_Communication_port:
+  - text: "Communication port of HD Series EM2100 Appliance is 10/100/1000 Ethernet  4 USB  4 VGA."
+  utter_HD_Series_EM2100_Appliance_Status_Display:
+  - text: "Status Display of HD Series EM2100 Appliance is Multi-segment LCD."
+  utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Operating_System:
+  - text: "MobilePlanner PC Operating System of MobilePlanner Software Requirements is Windows 10 (32-bit/64-bit version)."
+  utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_CPU:
+  - text: "MobilePlanner PC CPU of MobilePlanner Software Requirements is 1.5 GHz dual-core CPU recommended."
+  utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Main_Memory:
+  - text: "MobilePlanner PC Main Memory of MobilePlanner Software Requirements is 1.5 GB min. (4 GB min. recommended)."
+  utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Hard_Disk:
+  - text: "MobilePlanner PC Hard Disk of MobilePlanner Software Requirements is At least 200 MB of available space."
+  utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Video_Memory:
+  - text: "MobilePlanner PC Video Memory of MobilePlanner Software Requirements is 256 MB min.."
+  utter_MobilePlanner_Software_Requirements_MobilePlanner_PC_Display:
+  - text: "MobilePlanner PC Display of MobilePlanner Software Requirements is XGA 1024  768 16 million colors minimum."
+  utter_MobilePlanner_Software_Requirements_MobilePlanner_Tablet_Edition_Operating_System:
+  - text: "MobilePlanner Tablet Edition Operating System of MobilePlanner Software Requirements is Android OS Version 9 or newer minimum 2 GB of RAM."
+  - text: "MobilePlanner Tablet Edition Operating System of MobilePlanner Software Requirements is iOS Version 10 or newer."
+  utter_MobilePlanner_Software_Requirements_Supported_Languages:
+  - text: "Supported Languages of MobilePlanner Software Requirements is English German Japanese French Italian Korean Spanish Simplified Chinese and Traditional Chinese.."
+  utter_HD1500_Weight_:
+  - text: "Weight  of HD1500 is 506.5 kg."
+  utter_HD1500_Environment_Ambient_temperature:
+  - text: "Environment Ambient temperature of HD1500 is 5 to 40C."
+  utter_HD1500_Environment_Storage_temperature:
+  - text: "Environment Storage temperature of HD1500 is -20 to 60C."
+  utter_HD1500_Environment_Ambient_humidity:
+  - text: "Environment Ambient humidity of HD1500 is 5 to 95% (non-condensing)."
+  utter_HD1500_Environment_Operating_environment:
+  - text: "Environment Operating environment of HD1500 is Indoor usage only no excessive dust no corrosive gas."
+  utter_HD1500_Environment_Altitude:
+  - text: "Environment Altitude of HD1500 is 2000 m maximum."
+  utter_HD1500_Environment_Ingress_Protection_Class:
+  - text: "Environment Ingress Protection Class of HD1500 is IP20."
+  utter_HD1500_Environment_Cleanroom_rating:
+  - text: "Environment Cleanroom rating of HD1500 is ISO 6 / Class 1000."
+  utter_HD1500_Floor_Conditions_Floor_requirements:
+  - text: "Floor Conditions Floor requirements of HD1500 is No water no oil no dirt."
+  utter_HD1500_Floor_Conditions_Minimum_floor_flatness:
+  - text: "Floor Conditions Minimum floor flatness of HD1500 is FF25 (ACI 117 standard)."
+  utter_HD1500_Floor_Conditions_Traversable_step:
+  - text: "Floor Conditions Traversable step of HD1500 is 10 mm max.."
+  utter_HD1500_Floor_Conditions_Traversable_gap:
+  - text: "Floor Conditions Traversable gap of HD1500 is 20 mm max.."
+  utter_HD1500_Floor_Conditions_Maximum_Slope:
+  - text: "Floor Conditions Maximum Slope of HD1500 is Max. 1.8 / 3% incline."
+  utter_HD1500_Floor_Conditions_Minimum_floor_compressive_strength:
+  - text: "Floor Conditions Minimum floor compressive strength of HD1500 is 5 Mpa."
+  utter_HD1500_Floor_Conditions_Minimum_coefficient_of_friction:
+  - text: "Floor Conditions Minimum coefficient of friction of HD1500 is 0.6."
+  utter_HD1500_Navigation_Routing:
+  - text: "Navigation Routing of HD1500 is Autonomous routing by localizing with safety scanning laser based on environment mapping."
+  utter_HD1500_Navigation_Environmental_mapmaking_method:
+  - text: "Navigation Environmental mapmaking method of HD1500 is Scan by driving the AMR through the environment and upload the scan data to the MobilePlanner."
+  utter_HD1500_Maximum_Payload_Capacity:
+  - text: "Maximum Payload Capacity of HD1500 is 1500 kg."
+  utter_HD1500_Mobility_Run_Time_*1:
+  - text: "Mobility Run Time *1 of HD1500 is 12.5 h (no payload) 9 h (full payload)."
+  utter_HD1500_Mobility_Maximum_translational_speed__*2:
+  - text: "Mobility Maximum translational speed  *2 of HD1500 is 1800 mm/s."
+  utter_HD1500_Mobility_Maximum_rotation_speed:
+  - text: "Mobility Maximum rotation speed of HD1500 is 60 /s."
+  utter_HD1500_Mobility_Swing_radius:
+  - text: "Mobility Swing radius of HD1500 is 982 mm."
+  utter_HD1500_Mobility_Turn_radius:
+  - text: "Mobility Turn radius of HD1500 is 0 mm."
+  utter_HD1500_Mobility_Maximum_translational_acceleration:
+  - text: "Mobility Maximum translational acceleration of HD1500 is 900 mm/s2."
+  utter_HD1500_Mobility_Maximum_rotational_accelerationdeceleration:
+  - text: "Mobility Maximum rotational accelerationdeceleration of HD1500 is 150 /s2."
+  utter_HD1500_Mobility_Maximum_moment_of_inertia:
+  - text: "Mobility Maximum moment of inertia of HD1500 is 490 kg-m2."
+  utter_HD1500_Mobility_Stop_position_repeatability_:
+  - text: "Mobility Stop position repeatability  of HD1500 is To a position: 50 mm To standard target: 25 mm 2 With HAPS: 8 mm 0.4 With CAPS: 8 mm 0.5."
+  - text: "Mobility Stop position repeatability  of HD1500 is To a position: 70 mm To standard target: 35 mm 2 With HAPS: 10 mm 0.75 With CAPS: 16 mm 0.5."
+  utter_HD1500_Drive_wheels_Materials:
+  - text: "Drive wheels Materials of HD1500 is Non-marking static dissipative polyurethane on steel rim."
+  utter_HD1500_Passive_casters_Materials:
+  - text: "Passive casters Materials of HD1500 is Non-marking polyurethane on cast iron rim.."
+  utter_HD1500_Auxiliary_Power_Unregulated:
+  - text: "Auxiliary Power Unregulated of HD1500 is 48 to 56 VDC."
+  utter_HD1500_Auxiliary_Power_Regulated:
+  - text: "Auxiliary Power Regulated of HD1500 is 23.0 to 25.2 VDC."
+  utter_HD1500_Standard_Harmonized_standard:
+  - text: "Standard Harmonized standard of HD1500 is EN IS0 12100 EN ISO 13849-1 EN 60204-1."
+  utter_HD1500_Standard_Relevant_standard:
+  - text: "Standard Relevant standard of HD1500 is ISO 10218 UL1564 UL2271 UL1740."
+  utter_HD1500_Standard_Wireless:
+  - text: "Standard Wireless of HD1500 is IEEE 802.11 a/b/g/n/ac."
+  utter_HD1500_Signal_Interfaces_Wireless:
+  - text: "Signal Interfaces Wireless of HD1500 is Two integrated wireless antennas."
+  utter_HD1500_Signal_Interfaces_Ethernet_port:
+  - text: "Signal Interfaces Ethernet port of HD1500 is Two RJ-45 ports included for maintenance and access to the internally mounted NX102 unit.."
+  utter_HD1500_Signal_Interfaces_Digital_IO:
+  - text: "Signal Interfaces Digital IO of HD1500 is Eight PNP (sourcing) inputs Eight PNP (sourcing) outputs."
+  utter_HD1500_Signal_Interfaces_Analog_IO:
+  - text: "Signal Interfaces Analog IO of HD1500 is Eight PNP (sourcing) inputs Eight PNP (sourcing) outputs."
+  utter_HD1500_Signal_Interfaces_Audio:
+  - text: "Signal Interfaces Audio of HD1500 is Digital audio out."
+  utter_HD1500_Safety_Features_Safety_Scanning_Lasers:
+  - text: "Safety Features Safety Scanning Lasers of HD1500 is Two Safety Scanning Lasers are included to provide a 360 detection area around the AMR. The scanning plane is positioned 175 mm above the floor. Lasers are rated as Class 1 eye-safe PLd Safety per ISO 13849-1.."
+  utter_HD1500_Safety_Features_ESTOP_Buttons:
+  - text: "Safety Features ESTOP Buttons of HD1500 is Five E-STOP buttons are located on the AMR (sides and Operator Panel). Additional E-STOP buttons can be added to the payload structure.."
+  utter_HD1500_Safety_Features_Low_Lasers:
+  - text: "Safety Features Low Lasers of HD1500 is Two Low Lasers are provided to detect objects near the floor.."
+  utter_HD1500_Safety_Features_Side_Lasers_:
+  - text: "Safety Features Side Lasers  of HD1500 is Two lasers factory-mounted above safety scanning lasers user-relocatable to the payload structure if needed.."
+  utter_HD1500_Safety_Features_Visual_Indicators:
+  - text: "Safety Features Visual Indicators of HD1500 is Light discs are located on the sides of the AMR. Light strips are located on the front and back of the AMR. Additional indicators can be added.."
+  utter_HD1500_Safety_Features_Audible_Indicators:
+  - text: "Safety Features Audible Indicators of HD1500 is Two speakers are included. Additional buzzers can be added.."
+  utter_HD1500_Safety_Features_Emergency_Stop_Interface:
+  - text: "Safety Features Emergency Stop Interface of HD1500 is Dual channel emergency stop inputs and outputs.."
+  utter_HD1500_Safety_Features_Safety_Outputs:
+  - text: "Safety Features Safety Outputs of HD1500 is Dual channel safety outputs.."
+  utter_HD1500_Safety_Features_Protective_Stop_Interface:
+  - text: "Safety Features Protective Stop Interface of HD1500 is Dual channel protective stop inputs.."
+  utter_HD1500_Operator_Panel_Display:
+  - text: "Operator Panel Display of HD1500 is 7-inch diagonal LCD.."
+  utter_HD1500_Operator_Panel_Controls:
+  - text: "Operator Panel Controls of HD1500 is  E-STOP button  ON/OFF buttons  Brake release button  Pendant port  Maintenance port  Main disconnect switch."
+  utter_MobilePlanner_Software_CPU:
+  - text: "CPU of MobilePlanner Software is 1.5 GHz dual-core CPU recommended."
+  utter_MobilePlanner_Software_Main_Memory:
+  - text: "Main Memory of MobilePlanner Software is 1.5 GB min. (4 GB min. recommended)."
+  utter_MobilePlanner_Software_Hard_Disk:
+  - text: "Hard Disk of MobilePlanner Software is At least 200 MB of available space."
+  utter_MobilePlanner_Software_Video_Memory:
+  - text: "Video Memory of MobilePlanner Software is 256 MB min.."
+  utter_MobilePlanner_Software_Display:
+  - text: "Display of MobilePlanner Software is XGA 1024  768 16 million colors."
+  utter_MobilePlanner_Software_Supported_Languages:
+  - text: "Supported Languages of MobilePlanner Software is English Japanese German French Italian Korean Spanish Polish Simplified Chinese Traditional Chinese."
+  utter_Acuity_Localization_Field_of_View:
+  - text: "Field of View of Acuity Localization is 140."
+  utter_Acuity_Localization_Power_Input:
+  - text: "Power Input of Acuity Localization is 12 VDC (10%) supplied from AMR through power connector."
+  utter_Acuity_Localization_Power_Consumption:
+  - text: "Power Consumption of Acuity Localization is 3.3 W maximum."
+  utter_Joystick_Pendant_Weight:
+  - text: "Weight of Joystick Pendant is 0.55 kg."
+  utter_Joystick_Pendant_IP_Rating:
+  - text: "IP Rating of Joystick Pendant is IP56."
+  utter_Docking_Station_Current:
+  - text: "Current of Docking Station is 8 A *1."
+  utter_Docking_Station_Power:
+  - text: "Power of Docking Station is 100 to 240 VAC 50 to 60 Hz."
+  utter_Docking_Station_Power_Consumption:
+  - text: "Power Consumption of Docking Station is 800 W."
+  utter_Docking_Station_Humidity:
+  - text: "Humidity of Docking Station is 5 to 95% non-condensing."
+  utter_Docking_Station_Temperature:
+  - text: "Temperature of Docking Station is 5 to 40C."
+  utter_Docking_Station_Dimensions_:
+  - text: "Dimensions  of Docking Station is 349  369  315 mm 495  495.5  317 mm (with floor plate)."
+  utter_Docking_Station_Weight:
+  - text: "Weight of Docking Station is 8.2 kg."
+  utter_Docking_Station_Mounting:
+  - text: "Mounting of Docking Station is Wall bracket directly to floor or on floor with floor plate."
+  utter_Docking_Station_Indicators:
+  - text: "Indicators of Docking Station is Power on: blue Charging: yellow."
+  utter_Docking_Station_Connector:
+  - text: "Connector of Docking Station is For out-of-AMR battery charging."
+  utter_LD_Series_Battery_Run_Time_:
+  - text: "Run Time  of LD Series Battery is 15 h approx. (LD-60 LD-90) 13 h approx. (LD-250)."
+  - text: "Run Time  of LD Series Battery is 12 h approx. (LD-60 LD-90) 10 h approx. (LD-250)."
+  utter_LD_Series_Battery_Weight:
+  - text: "Weight of LD Series Battery is 19 kg."
+  utter_LD_Series_Battery_Voltage:
+  - text: "Voltage of LD Series Battery is 22 to 30 VDC."
+  utter_LD_Series_Battery_Capacity:
+  - text: "Capacity of LD Series Battery is 72 Ah (battery cell nominal)."
+  utter_LD_Series_Battery_Recharge_Time:
+  - text: "Recharge Time of LD Series Battery is 2 hrs. 10 min. for 20% to 80% charge."
+  utter_LD_Series_Battery_Life_Expectancy:
+  - text: "Life Expectancy of LD Series Battery is 2000 times 80% DOD (battery cell nominal) 7 years approx. 16 h/day 5 days/week 4 years approx. 19/7 (full-time)."
+  utter_LD_Series_Battery_Charging_Method:
+  - text: "Charging Method of LD Series Battery is Automatic or manual."
+  utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR:
+  - text: "Stop Position Repeatability LD60 LD90 Single AMR of LD Series Cell Alignment Positioning System CAPS is 8 mm position 0.5 rotation."
+  utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD60_LD90_Fleet:
+  - text: "Stop Position Repeatability LD60 LD90 Fleet of LD Series Cell Alignment Positioning System CAPS is 12 mm position 0.5 rotation."
+  utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Single_AMR:
+  - text: "Stop Position Repeatability LD250 Single AMR of LD Series Cell Alignment Positioning System CAPS is 8 mm position 0.5 rotation."
+  utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Stop_Position_Repeatability_LD250_Fleet:
+  - text: "Stop Position Repeatability LD250 Fleet of LD Series Cell Alignment Positioning System CAPS is 14 mm position 0.6 rotation."
+  utter_LD_Series_Cell_Alignment_Positioning_System_CAPS_Type:
+  - text: "Type of LD Series Cell Alignment Positioning System CAPS is Software license."
+  utter_High_Accuracy_Positioning_System_HAPS_Sensor_Depth:
+  - text: "Sensor Depth of High Accuracy Positioning System HAPS is 30 mm."
+  utter_High_Accuracy_Positioning_System_HAPS_Sensor_Width:
+  - text: "Sensor Width of High Accuracy Positioning System HAPS is 160 mm."
+  utter_High_Accuracy_Positioning_System_HAPS_Sensor_Ingress_Protection_Class:
+  - text: "Sensor Ingress Protection Class of High Accuracy Positioning System HAPS is IP64."
+  utter_High_Accuracy_Positioning_System_HAPS_Sensor_Environment:
+  - text: "Sensor Environment of High Accuracy Positioning System HAPS is -40 to 85C."
+  utter_High_Accuracy_Positioning_System_HAPS_Sensor_LEDs:
+  - text: "Sensor LEDs of High Accuracy Positioning System HAPS is Power tape present left marker right marker."
+  utter_High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Width:
+  - text: "Magnetic Tape Width of High Accuracy Positioning System HAPS is 25 mm."
+  utter_High_Accuracy_Positioning_System_HAPS_Magnetic_Tape_Orientation:
+  - text: "Magnetic Tape Orientation of High Accuracy Positioning System HAPS is South up."
+  utter_High_Accuracy_Positioning_System_HAPS_Markers__Width:
+  - text: "Markers  Width of High Accuracy Positioning System HAPS is 25 mm."
+  utter_High_Accuracy_Positioning_System_HAPS_Markers__Length:
+  - text: "Markers  Length of High Accuracy Positioning System HAPS is 300 mm min. for 500 mm/s drive speed."
+  utter_High_Accuracy_Positioning_System_HAPS_Markers__Orientation:
+  - text: "Markers  Orientation of High Accuracy Positioning System HAPS is North up."
+  utter_High_Accuracy_Positioning_System_HAPS_Markers__Separation_From_Tape:
+  - text: "Markers  Separation From Tape of High Accuracy Positioning System HAPS is 15 to 30 mm."
+  utter_High_Accuracy_Positioning_System_HAPS_Connections_Front_Sensor:
+  - text: "Connections Front Sensor of High Accuracy Positioning System HAPS is RS232-1 (/dev/ttyUSB9) on the core."
+  utter_High_Accuracy_Positioning_System_HAPS_Connections_Rear_Sensor:
+  - text: "Connections Rear Sensor of High Accuracy Positioning System HAPS is RS232-2 (/dev/ttyUSB10) on the core."
+  utter_High_Accuracy_Positioning_System_HAPS_Connections_Power_Both_Sensors:
+  - text: "Connections Power Both Sensors of High Accuracy Positioning System HAPS is Aux power using the included splitter cable."
+  utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Single_AMR:
+  - text: "Stop Position Repeatability LD60 LD90 Single AMR of High Accuracy Positioning System HAPS is 8 mm position 0.4 rotation."
+  utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD60_LD90_Fleet:
+  - text: "Stop Position Repeatability LD60 LD90 Fleet of High Accuracy Positioning System HAPS is 10 mm position 0.5 rotation."
+  utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Single_AMR:
+  - text: "Stop Position Repeatability LD250 Single AMR of High Accuracy Positioning System HAPS is 8 mm position 0.4 rotation."
+  utter_High_Accuracy_Positioning_System_HAPS_Stop_Position_Repeatability_LD250_Fleet:
+  - text: "Stop Position Repeatability LD250 Fleet of High Accuracy Positioning System HAPS is 10 mm position 0.6 rotation."
+  utter_LD_Series_EM2100_Appliance_Weight:
+  - text: "Weight of LD Series EM2100 Appliance is 9.1 kg."
+  utter_LD_Series_EM2100_Appliance_Mounting_method:
+  - text: "Mounting method of LD Series EM2100 Appliance is 1U rack mount in a standard 19-inch equipment rack."
+  utter_LD_Series_EM2100_Appliance_Power_Supply:
+  - text: "Power Supply of LD Series EM2100 Appliance is 100 to 240 VAC (typical 100 W)."
+  utter_LD_Series_EM2100_Appliance_Power_Consumption:
+  - text: "Power Consumption of LD Series EM2100 Appliance is 200 W max.."
+  utter_LD_Series_EM2100_Appliance_Operating_Temperature:
+  - text: "Operating Temperature of LD Series EM2100 Appliance is 10 to 35C."
+  utter_LD_Series_EM2100_Appliance_Storage_Temperature:
+  - text: "Storage Temperature of LD Series EM2100 Appliance is -25 to 60C."
+  utter_LD_Series_EM2100_Appliance_Operating_Humidity:
+  - text: "Operating Humidity of LD Series EM2100 Appliance is 8 to 90% non-condensing."
+  utter_LD_Series_EM2100_Appliance_Storage_Humidity:
+  - text: "Storage Humidity of LD Series EM2100 Appliance is 5 to 95% non-condensing."
+  utter_LD_Series_EM2100_Appliance_Chassis_Ingress_Protection_Class:
+  - text: "Chassis Ingress Protection Class of LD Series EM2100 Appliance is IP20."
+  utter_LD_Series_EM2100_Appliance_CPU:
+  - text: "CPU of LD Series EM2100 Appliance is Intel Xeon CPU."
+  utter_LD_Series_EM2100_Appliance_Main_Memory:
+  - text: "Main Memory of LD Series EM2100 Appliance is 32 GB DDR3."
+  utter_LD_Series_EM2100_Appliance_Storage:
+  - text: "Storage of LD Series EM2100 Appliance is 60 GB SSD."
+  utter_LD_Series_EM2100_Appliance_Archive_Storage:
+  - text: "Archive Storage of LD Series EM2100 Appliance is 4 TB HDD."
+  utter_LD_Series_EM2100_Appliance_Communication_ports:
+  - text: "Communication ports of LD Series EM2100 Appliance is Four 10/100/1000 Ethernet Four USB One VGA."
+  utter_LD_Series_EM2100_Appliance_Status_Display:
+  - text: "Status Display of LD Series EM2100 Appliance is Multi-segment LCD."
+  utter_LD250_Weight:
+  - text: "Weight of LD250 is 148 kg (with battery) 129 kg (without battery)."
+  utter_LD250_Environment_Ambient_temperature:
+  - text: "Environment Ambient temperature of LD250 is 5 to 40C."
+  utter_LD250_Environment_Ambient_humidity:
+  - text: "Environment Ambient humidity of LD250 is 5 to 95% (non-condensing)."
+  utter_LD250_Environment_Operating_Environment:
+  - text: "Environment Operating Environment of LD250 is Indoor usage only no excessive dust no corrosive gas. Direct sunlight may cause safety laser false positives.."
+  utter_LD250_Environment_Ingress_Protection_Class:
+  - text: "Environment Ingress Protection Class of LD250 is IP20."
+  utter_LD250_Environment_Cleanroom_rating:
+  - text: "Environment Cleanroom rating of LD250 is ISO 5 / Class 100."
+  utter_LD250_Floor_Conditions_Floor_Condition:
+  - text: "Floor Conditions Floor Condition of LD250 is No water no oil no dirt."
+  utter_LD250_Floor_Conditions_Minimum_floor_flatness:
+  - text: "Floor Conditions Minimum floor flatness of LD250 is FF25 (ACI 117 standard)."
+  utter_LD250_Floor_Conditions_Traversable_step:
+  - text: "Floor Conditions Traversable step of LD250 is 10 mm max. The LD-250 should traverse a step at 600 mm/s or slower for best performance of the laser and battery.."
+  utter_LD250_Floor_Conditions_Traversable_gap:
+  - text: "Floor Conditions Traversable gap of LD250 is 15 mm max.."
+  utter_LD250_Floor_Conditions_Climb_grade:
+  - text: "Floor Conditions Climb grade of LD250 is 3% (Frequent operation on grades affects battery duration.)."
+  utter_LD250_Floor_Conditions_Minimum_floor_compressive_strength:
+  - text: "Floor Conditions Minimum floor compressive strength of LD250 is 5 Mpa."
+  utter_LD250_Navigation_Routing:
+  - text: "Navigation Routing of LD250 is Autonomous routing by localizing with safety scanning laser based on environment mapping."
+  utter_LD250_Navigation_Environmental_map_making_method:
+  - text: "Navigation Environmental map making method of LD250 is Scan by manually driving the AMR through the environment and upload the scan data to the MobilePlanner for map creation.."
+  utter_LD250_Payload_Maximum_Weight:
+  - text: "Payload Maximum Weight of LD250 is 250 kg."
+  utter_LD250_Mobility_Maximum_Speed:
+  - text: "Mobility Maximum Speed of LD250 is 1200 mm/s."
+  utter_LD250_Mobility_Maximum_Rotation_Speed:
+  - text: "Mobility Maximum Rotation Speed of LD250 is 120 /s."
+  utter_LD250_Mobility_Stop_Position_Repeatability_:
+  - text: "Mobility Stop Position Repeatability  of LD250 is  To a position: 75 mm  To standard target: 25 mm 2  With CAPS: 8 mm 0.5  With HAPS: 8 mm 0.4."
+  - text: "Mobility Stop Position Repeatability  of LD250 is  To a position: 100 mm  To standard target: 35 mm 2  With CAPS: 14 mm 0.6  With HAPS: 10 mm 0.6."
+  utter_LD250_Drive_wheel_Materials:
+  - text: "Drive wheel Materials of LD250 is Aluminum with polyurethane tread."
+  utter_LD250_Passive_caster_Materials:
+  - text: "Passive caster Materials of LD250 is Elastomer (Polyurethane)."
+  utter_LD250_Auxiliary_Power:
+  - text: "Auxiliary Power of LD250 is 5 VDC5% 1 A switched Aux power 12 VDC5% 1 A switched Aux power 20 VDC5% 1 A switched Aux power 22 to 30 VDC 4 A switched  2 22 to 30 VDC 10 A switched 22 to 30 VDC 10 A safe switched 10 A switched and 10 A safe switched are drawn from the same source and pass through the same 10 A fuse so the sum of their current must be less than 10 A.."
+  utter_LD250_Standards_Harmonized_Standard:
+  - text: "Standards Harmonized Standard of LD250 is EN IS0 12100 / EN ISO 13849-1 / EN 60204-1."
+  utter_LD250_Standards_Relevant_Standard:
+  - text: "Standards Relevant Standard of LD250 is EN 1525 / ANSI B56.5."
+  utter_LD250_Standards_Wireless:
+  - text: "Standards Wireless of LD250 is 802.11 a/b/g/n/ac."
+  utter_LD250_Safety_Features_Safety_Scanning_Laser:
+  - text: "Safety Features Safety Scanning Laser of LD250 is One at front of AMR Class 1 PLd safety per ISO13849-1 240 field of view."
+  utter_LD250_Safety_Features_ESTOP_Buttons:
+  - text: "Safety Features ESTOP Buttons of LD250 is One at Operator Panel one on each side (three total)."
+  utter_LD250_Safety_Features_Rear_Sensing:
+  - text: "Safety Features Rear Sensing of LD250 is Time of flight (TOF) sensors."
+  utter_LD250_Safety_Features_Low_Front_Laser:
+  - text: "Safety Features Low Front Laser of LD250 is One at front of AMR Class 1 126 field of view."
+  utter_LD250_Safety_Features_Side_Laser:
+  - text: "Safety Features Side Laser of LD250 is Option: Two on sides of payload structure user-mounted Class 1 270 field of view."
+  utter_LD250_Safety_Features_Visual_Indicators:
+  - text: "Safety Features Visual Indicators of LD250 is Light discs are located on the sides of the AMR. Additional indicators can be added.."
+  utter_LD250_Safety_Features_Audible_Indicators:
+  - text: "Safety Features Audible Indicators of LD250 is Two speakers are included. Additional buzzers can be added.."
+  utter_LD250_Operator_Interface_Display:
+  - text: "Operator Interface Display of LD250 is 3.5 inch TFT 320  240 pixels color screen."
+  utter_LD250_Operator_Interface_Button:
+  - text: "Operator Interface Button of LD250 is ON button: green OFF button: red Brake-release button: orange Keyswitch (disabled OFF button)."
+  utter_LD250_User_Interface_Wireless:
+  - text: "User Interface Wireless of LD250 is 802.11 a/b/g/n/ac."
+  utter_LD250_User_Interface_Ethernet_Port:
+  - text: "User Interface Ethernet Port of LD250 is One user LAN One maintenance LAN Auto-MDIX."
+  utter_LD250_User_Interface_Serial:
+  - text: "User Interface Serial of LD250 is Two RS-232."
+  utter_LD250_User_Interface_Digital_IO:
+  - text: "User Interface Digital IO of LD250 is 16 inputs 16 outputs."
+  utter_LD250_User_Interface_Audio:
+  - text: "User Interface Audio of LD250 is Digital audio out audio in / audio out."
+  utter_LD250_Cart_Latching:
+  - text: "Cart Latching of LD250 is Not available."
+  utter_LD60_Weight_:
+  - text: "Weight  of LD60 is 62 kg."
+  utter_LD90_Weight_:
+  - text: "Weight  of LD90 is 62 kg."
+  utter_LD60_Environment_Ambient_temperature:
+  - text: "Environment Ambient temperature of LD60 is 5 to 40C."
+  utter_LD90_Environment_Ambient_temperature:
+  - text: "Environment Ambient temperature of LD90 is 5 to 40C."
+  utter_LD60_Environment_Ambient_humidity:
+  - text: "Environment Ambient humidity of LD60 is 5 to 95% (non-condensing)."
+  utter_LD90_Environment_Ambient_humidity:
+  - text: "Environment Ambient humidity of LD90 is 5 to 95% (non-condensing)."
+  utter_LD60_Environment_Operating_Environment:
+  - text: "Environment Operating Environment of LD60 is Indoor usage only no excessive dust no corrosive gas. Floor must be free of water oil dirt and debris. Direct sunlight may cause safety laser false positives.."
+  utter_LD90_Environment_Operating_Environment:
+  - text: "Environment Operating Environment of LD90 is Indoor usage only no excessive dust no corrosive gas. Floor must be free of water oil dirt and debris. Direct sunlight may cause safety laser false positives.."
+  utter_LD60_Environment_Ingress_Protection_Class:
+  - text: "Environment Ingress Protection Class of LD60 is IP20."
+  utter_LD90_Environment_Ingress_Protection_Class:
+  - text: "Environment Ingress Protection Class of LD90 is IP20."
+  utter_LD60_Environment_Cleanroom_rating:
+  - text: "Environment Cleanroom rating of LD60 is ISO 5 / Class 100."
+  utter_LD90_Environment_Cleanroom_rating:
+  - text: "Environment Cleanroom rating of LD90 is ISO 5 / Class 100."
+  utter_LD60_Floor_Conditions_Minimum_floor_flatness:
+  - text: "Floor Conditions Minimum floor flatness of LD60 is FF25 (ACI 117 standard)."
+  utter_LD90_Floor_Conditions_Minimum_floor_flatness:
+  - text: "Floor Conditions Minimum floor flatness of LD90 is FF25 (ACI 117 standard)."
+  utter_LD60_Floor_Conditions_Traversable_step:
+  - text: "Floor Conditions Traversable step of LD60 is 15 mm max. *1."
+  utter_LD90_Floor_Conditions_Traversable_step:
+  - text: "Floor Conditions Traversable step of LD90 is 10 mm max. *1."
+  utter_LD60_Floor_Conditions_Traversable_gap:
+  - text: "Floor Conditions Traversable gap of LD60 is 15 mm max.."
+  utter_LD90_Floor_Conditions_Traversable_gap:
+  - text: "Floor Conditions Traversable gap of LD90 is 15 mm max.."
+  utter_LD60_Floor_Conditions_Climb_grade:
+  - text: "Floor Conditions Climb grade of LD60 is Up to 60 kg: 1:12 or less Over 60 kg: Level floor only."
+  utter_LD90_Floor_Conditions_Climb_grade:
+  - text: "Floor Conditions Climb grade of LD90 is Up to 60 kg: 1:12 or less Over 60 kg: Level floor only."
+  utter_LD60_Floor_Conditions_Minimum_floor_compressive_strength:
+  - text: "Floor Conditions Minimum floor compressive strength of LD60 is 5 Mpa."
+  utter_LD90_Floor_Conditions_Minimum_floor_compressive_strength:
+  - text: "Floor Conditions Minimum floor compressive strength of LD90 is 5 Mpa."
+  utter_LD60_Navigation_Routing:
+  - text: "Navigation Routing of LD60 is Autonomous routing by localizing with safety scanning laser based on environment mapping."
+  utter_LD90_Navigation_Routing:
+  - text: "Navigation Routing of LD90 is Autonomous routing by localizing with safety scanning laser based on environment mapping."
+  utter_LD60_Navigation_Environmental_map_making_method:
+  - text: "Navigation Environmental map making method of LD60 is Scan by walking the AMR through the environment and upload the scan data to the MobilePlanner software."
+  utter_LD90_Navigation_Environmental_map_making_method:
+  - text: "Navigation Environmental map making method of LD90 is Scan by walking the AMR through the environment and upload the scan data to the MobilePlanner software."
+  utter_LD60_Payload_Maximum_Weight:
+  - text: "Payload Maximum Weight of LD60 is 60 kg."
+  utter_LD90_Payload_Maximum_Weight:
+  - text: "Payload Maximum Weight of LD90 is 90 kg."
+  utter_LD60_Mobility_Maximum_Speed:
+  - text: "Mobility Maximum Speed of LD60 is 1800 mm/s."
+  utter_LD90_Mobility_Maximum_Speed:
+  - text: "Mobility Maximum Speed of LD90 is 1350 mm/s."
+  utter_LD60_Mobility_Maximum_Rotation_Speed:
+  - text: "Mobility Maximum Rotation Speed of LD60 is 180 /s."
+  utter_LD90_Mobility_Maximum_Rotation_Speed:
+  - text: "Mobility Maximum Rotation Speed of LD90 is 180 /s."
+  utter_LD60_Mobility_Stop_Position_Repeatability_:
+  - text: "Mobility Stop Position Repeatability  of LD60 is  To a position: 65 mm  To standard target: 25 mm 2  With CAPS: 8 mm 0.5  With HAPS: 8 mm 0.4."
+  - text: "Mobility Stop Position Repeatability  of LD60 is  To a position: 85 mm  To standard target: 35 mm 2  With CAPS: 12 mm 0.5  With HAPS: 10 mm 0.5."
+  utter_LD90_Mobility_Stop_Position_Repeatability_:
+  - text: "Mobility Stop Position Repeatability  of LD90 is  To a position: 65 mm  To standard target: 25 mm 2  With CAPS: 8 mm 0.5  With HAPS: 8 mm 0.4."
+  - text: "Mobility Stop Position Repeatability  of LD90 is  To a position: 85 mm  To standard target: 35 mm 2  With CAPS: 12 mm 0.5  With HAPS: 10 mm 0.5."
+  utter_LD60_Drive_wheels_Materials:
+  - text: "Drive wheels Materials of LD60 is Non-marking nylon foam-filled rubber non-conductive."
+  utter_LD90_Drive_wheels_Materials:
+  - text: "Drive wheels Materials of LD90 is Non-marking nylon foam-filled rubber non-conductive."
+  utter_LD60_Passive_casters_Materials:
+  - text: "Passive casters Materials of LD60 is Conductive thermoplastic rubber on polyolefin."
+  utter_LD90_Passive_casters_Materials:
+  - text: "Passive casters Materials of LD90 is Conductive thermoplastic rubber on polyolefin."
+  utter_LD60_Auxiliary_Power:
+  - text: "Auxiliary Power of LD60 is 5 VDC5% 1 A switched Aux power 12 VDC5% 1 A switched Aux power 20 VDC5% 1 A switched Aux power 22 to 30 VDC 4 A switched  2 22 to 30 VDC 10 A switched 22 to 30 VDC 10 A safe switched 10 A switched and 10 A safe switched are from the same source and pass through the same 10 A fuse so the sum of their current must be less than 10 A.."
+  utter_LD90_Auxiliary_Power:
+  - text: "Auxiliary Power of LD90 is 5 VDC5% 1 A switched Aux power 12 VDC5% 1 A switched Aux power 20 VDC5% 1 A switched Aux power 22 to 30 VDC 4 A switched  2 22 to 30 VDC 10 A switched 22 to 30 VDC 10 A safe switched 10 A switched and 10 A safe switched are from the same source and pass through the same 10 A fuse so the sum of their current must be less than 10 A.."
+  utter_LD60_Standard_Harmonized_Standard:
+  - text: "Standard Harmonized Standard of LD60 is EN IS0 12100 / EN ISO 13849-1 / EN 60204-1."
+  utter_LD90_Standard_Harmonized_Standard:
+  - text: "Standard Harmonized Standard of LD90 is EN IS0 12100 / EN ISO 13849-1 / EN 60204-1."
+  utter_LD60_Standard_Relevant_Standard:
+  - text: "Standard Relevant Standard of LD60 is EN 1525 / ANSI B56.5."
+  utter_LD90_Standard_Relevant_Standard:
+  - text: "Standard Relevant Standard of LD90 is EN 1525 / ANSI B56.5."
+  utter_LD60_Standard_Wireless:
+  - text: "Standard Wireless of LD60 is 802.11 a/b/g/n/ac."
+  utter_LD90_Standard_Wireless:
+  - text: "Standard Wireless of LD90 is 802.11 a/b/g/n/ac."
+  utter_LD60_Safety_Features_Safety_Scanning_Laser:
+  - text: "Safety Features Safety Scanning Laser of LD60 is One at front of AMR Class 1 PLd safety per ISO13849-1 240 field of view."
+  utter_LD90_Safety_Features_Safety_Scanning_Laser:
+  - text: "Safety Features Safety Scanning Laser of LD90 is One at front of AMR Class 1 PLd safety per ISO13849-1 240 field of view."
+  utter_LD60_Safety_Features_ESTOP_Buttons:
+  - text: "Safety Features ESTOP Buttons of LD60 is One at Operator Panel."
+  utter_LD90_Safety_Features_ESTOP_Buttons:
+  - text: "Safety Features ESTOP Buttons of LD90 is One at Operator Panel."
+  utter_LD60_Safety_Features_Rear_Sonar:
+  - text: "Safety Features Rear Sonar of LD60 is Two at back 2 m range Each pair includes one emitter and one receiver working together."
+  utter_LD90_Safety_Features_Rear_Sonar:
+  - text: "Safety Features Rear Sonar of LD90 is Two at back 2 m range Each pair includes one emitter and one receiver working together."
+  utter_LD60_Safety_Features_Front_Bumper:
+  - text: "Safety Features Front Bumper of LD60 is One at front of AMR two pairs of sensors."
+  utter_LD90_Safety_Features_Front_Bumper:
+  - text: "Safety Features Front Bumper of LD90 is One at front of AMR two pairs of sensors."
+  utter_LD60_Safety_Features_Low_Front_Laser:
+  - text: "Safety Features Low Front Laser of LD60 is One at front of AMR Class 1 126 field of view."
+  utter_LD90_Safety_Features_Low_Front_Laser:
+  - text: "Safety Features Low Front Laser of LD90 is One at front of AMR Class 1 126 field of view."
+  utter_LD60_Safety_Features_Side_Laser:
+  - text: "Safety Features Side Laser of LD60 is Option: Two on sides of payload structure user-mounted Class 1 270 field of view."
+  utter_LD90_Safety_Features_Side_Laser:
+  - text: "Safety Features Side Laser of LD90 is Option: Two on sides of payload structure user-mounted Class 1 270 field of view."
+  utter_LD60_Safety_Features_Rear_Laser:
+  - text: "Safety Features Rear Laser of LD60 is Not available."
+  utter_LD90_Safety_Features_Rear_Laser:
+  - text: "Safety Features Rear Laser of LD90 is Not available."
+  utter_LD60_Safety_Features_Visual_Indicators:
+  - text: "Safety Features Visual Indicators of LD60 is Light discs are located on the sides of the AMR. Additional indicators can be added.."
+  utter_LD90_Safety_Features_Visual_Indicators:
+  - text: "Safety Features Visual Indicators of LD90 is Light discs are located on the sides of the AMR. Additional indicators can be added.."
+  utter_LD60_Safety_Features_Audible_Indicators:
+  - text: "Safety Features Audible Indicators of LD60 is Two speakers are included. Additional buzzers can be added.."
+  utter_LD90_Safety_Features_Audible_Indicators:
+  - text: "Safety Features Audible Indicators of LD90 is Two speakers are included. Additional buzzers can be added.."
+  utter_LD60_Operator_Interface_Display:
+  - text: "Operator Interface Display of LD60 is 3.5 inch TFT 320  240 pixels color screen."
+  utter_LD90_Operator_Interface_Display:
+  - text: "Operator Interface Display of LD90 is 3.5 inch TFT 320  240 pixels color screen."
+  utter_LD60_Operator_Interface_Button:
+  - text: "Operator Interface Button of LD60 is ON button: green OFF button: red Brake-release button: orange Keyswitch."
+  utter_LD90_Operator_Interface_Button:
+  - text: "Operator Interface Button of LD90 is ON button: green OFF button: red Brake-release button: orange Keyswitch."
+  utter_LD60_User_Interface_Wireless:
+  - text: "User Interface Wireless of LD60 is 802.11 a/b/g/n/ac."
+  utter_LD90_User_Interface_Wireless:
+  - text: "User Interface Wireless of LD90 is 802.11 a/b/g/n/ac."
+  utter_LD60_User_Interface_Ethernet_Port:
+  - text: "User Interface Ethernet Port of LD60 is One user LAN One maintenance LAN Auto-MDIX."
+  utter_LD90_User_Interface_Ethernet_Port:
+  - text: "User Interface Ethernet Port of LD90 is One user LAN One maintenance LAN Auto-MDIX."
+  utter_LD60_User_Interface_Serial:
+  - text: "User Interface Serial of LD60 is Two RS-232."
+  utter_LD90_User_Interface_Serial:
+  - text: "User Interface Serial of LD90 is Two RS-232."
+  utter_LD60_User_Interface_Digital_IO:
+  - text: "User Interface Digital IO of LD60 is 16 inputs 16 outputs."
+  utter_LD90_User_Interface_Digital_IO:
+  - text: "User Interface Digital IO of LD90 is 16 inputs 16 outputs."
+  utter_LD60_User_Interface_Audio:
+  - text: "User Interface Audio of LD60 is Digital audio out audio in / audio out."
+  utter_LD90_User_Interface_Audio:
+  - text: "User Interface Audio of LD90 is Digital audio out audio in / audio out."
+  utter_LD60_Cart_Latching_Latching_Method:
+  - text: "Cart Latching Latching Method of LD60 is Not available."
+  utter_LD90_Cart_Latching_Latching_Method:
+  - text: "Cart Latching Latching Method of LD90 is Not available."
+
+actions: 
+  - action_fallback 
